@@ -1,0 +1,36 @@
+package Gun27._02_Ornek;
+
+public class MyMath {
+
+// Utility gibi gelsin direk kullanayım dediğim şeyleri Static yap mainde cagırısın deger koyar calsıtırırsın
+
+    public static int getMax (int a, int b)
+    {
+       return  (a>b ? a:b);
+    }
+
+
+    public static int getMin (int a, int b)
+    {
+        return  (a>b ? a:b);
+    }
+
+
+    public static double getPow (int a, int b)
+    {
+        return  Math.pow(a,b);
+    }
+
+
+    public static double getSqrt (int a)
+    {
+        return  Math.sqrt(a);
+    }
+
+
+    public static int getRandom (int sinir)
+    {
+        return (int)(Math.random()*sinir);
+    }
+
+}

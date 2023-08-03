@@ -1,0 +1,20 @@
+   //bir okulda kayıt programı için Ogrenci bilgilerini alan modül
+   // yazılacaktır.
+    Ogrenci ye ait bilgiler (adi, soyadi, sinifi ve adres) vardır.
+   // bu yapıyı oluşturunuz.
+   // Daha sonra 3 tane öğrenci bilgilerini kullanıcıdan alarak doldurunuz.
+
+
+
+
+
+ **ogrenci tipi için bir class
+ ** bunun da bir MAİN i olmalı , kayıt olur adı, okul olur, yani hep bir main olacak
+
+  class a
+  tanımlamalarını yap
+  String adi;
+  int sinifi;
+  ..
+  ..
+  ..

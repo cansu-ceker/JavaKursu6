@@ -1,0 +1,34 @@
+
+Eski tip programcılık---- Yapısal Programlama :
+-----------------------------------------------------------------------------
+int sayi;   int sayının tipi,
+            sayı ise değişkenin adı
+
+int türünden bir sayı değişkeni
+
+
+
+NESNEYE YÖNELİK PROGRAMLAMA :
+---------------------------------------------------------------------------------
+Ogrenci : okuldaki Ahmet in tipi
+
+
+
+
+tip     nesne,değişken,varlık--------------------- NESNEYE YÖNELİK PROGRAMLAMA
+Ogrenci Ahmet= new Ogrenci();----------------------Object Oriented Programming : OOP
+                                                   Ahmet var , Ogrenci ise bunun modeli
+
+Class  Ogrenci{        ------- burada Class  yazılması Ogrencinin tip olduğunu gösterir
+       okulNo
+       adi
+       soyadi
+       sinifi
+       adresi
+       telefonu
+
+
+Kargo
+Calisan
+Musteri
+vatandas

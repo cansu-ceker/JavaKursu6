@@ -1,0 +1,17 @@
+Access Modifiers (Erişim belirteçleri, izinler)
+1-Class ın içinden erişim noktası var
+2-Paketin içinden erişim noktası var
+3- Diğer paketlerden erişim var
+
+
+public ------projenin her yerinden erişime açık
+             Class a da, metod a da, field a da yazılabilir
+
+default ----(herhangi bir şey yazılmazsa), sadece kendi paketindekiler erişebilir
+            Class a da, metod a da, field a da yazılabilir
+
+private-----sadece clasın içinden  erişilebilir
+            metod a da, field a da yazılabilir
+
+protected --default ile aynı çalışır, (bir erişim izni daha var onu 3 konu göreceğiz)
+            metod a da, field a da yazılabilir

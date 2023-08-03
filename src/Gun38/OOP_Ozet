@@ -1,0 +1,14 @@
+OOP : nesneye yönelik programlama, 4 ana bölümü vardır, bazen polymorphism de eklenerek 5 e çıkarırlar
+
+Encapsulation : Kapsülleme, private yapıp get, set yapıyoruz
+                doğru veri atama ve güvenlik  sağlıyoruz
+
+Inheritance  : Extend, bir çok classın ortak kısımları için bir parent class yazıp, sonraki classları bu classtan üretilmesine katılırım dedik(dede-baba-torun)
+
+polymorphism :çok şekillilik, bir parent class veya ortak bir interface e sahip classların, istenildiğinde kendi tipinde, istenildiğinde parent tipinde olabilmesine, böylece aynı metodların kullanılmasına imkan verir(kedi-köpek)
+
+Interface    : yazılım şablonu sağlar bize, birden fazla class ın aynı metodların üretmesini zorunlu kılan ve böylece yazılım planlaması yöntemidir. Sadece metodların imzası yazılıyor
+               implement eden classlar metodlarının içini dolduruyor
+
+Abstract    : bir tane Interface ve bir tane parent class olacaksa, interface+parent class kullanmak yerine her ikisini içine alan tek class tipidir
+             interface+inheritance => abstract class ->  2 si bir arada
