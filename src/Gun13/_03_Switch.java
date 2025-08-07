@@ -7,6 +7,7 @@ public class _03_Switch {
 
          //girilen bir ay numarasına göre 1 ayın kaç gğn sürdüğünü yazdırın
 
+
         Scanner oku=new Scanner(System.in);
         System.out.print("Ay numarası kaç=");
         int sayi= oku.nextInt();

@@ -5,8 +5,11 @@ public class _11_StringToUpperCase {
         // toUpperCase : String büyük harfe çevirir
 
        String text="Merhaba Dünya";
-        System.out.print("Orijinali = " + text);
-        System.out.print("hepsi büyük yazsın = " + text.toUpperCase());
+        System.out.println("Orijinali = " + text);
+        System.out.println("hepsi büyük yazsın = " + text.toUpperCase());
+
+        String hepsiBuyukHal=text.toUpperCase();
+        System.out.println(hepsiBuyukHal);
 
         boolean bununlaBasliyorMu=text.toUpperCase().startsWith("M");   //text in hepsini büyüğe çevirdi sonra bu M ile mi başlıyo dedi
         System.out.println("M ve m ile başlıyor mu = " + bununlaBasliyorMu);  //  M ile mi başlıyo dese de, m ile mi başlıyo dese de cevap true, cunku zaten cumleyı buyuge cevırip o cumlede aramıstı cevap hep TRUE

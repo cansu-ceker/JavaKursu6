@@ -25,12 +25,5 @@ public class _02_doWhile {
         System.out.println("toplam = " + toplam);
 
 
-
-
-
-
-
-
-
     }
 }

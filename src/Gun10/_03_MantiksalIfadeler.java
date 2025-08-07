@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class _03_MantiksalIfadeler {
     public static void main(String[] args) {
-         //logic statement
-        //    ve  &&   (shift 6)
-        //  veya  ||  (altgr < tuslarına bas)
+   /*      logic statement
+            ve  &&   (shift 6)
+          veya  ||  (altgr < tuslarına bas)             */
 
 
         Scanner oku=new Scanner(System.in);

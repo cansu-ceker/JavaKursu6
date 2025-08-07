@@ -1,6 +1,6 @@
 package Gun16;
 
-public class _01_JavaDiziNedir {
+public class  _01_JavaDiziNedir {
     public static void main(String[] args) {
 
         int sayi=8;

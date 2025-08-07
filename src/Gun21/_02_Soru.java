@@ -10,6 +10,7 @@ public class _02_Soru {
         // sadece tek sayı olan elemanlarını ayrı diziye(liste)(ArrayList) atayarak
         // yazdırınız.
 
+
         Scanner oku=new Scanner(System.in);
         int [] dizi= new int[6];
 
@@ -21,17 +22,16 @@ public class _02_Soru {
 
            dizi[i]= oku.nextInt();
 
-          if (dizi[i]%2 !=0)  //  tek demek hem negatif hem pozitif hem de -1, çift olmayanları donguye sok dedik
-           teklerList.add(dizi[i]);
+          if (dizi[i]%2 !=0)  //  tek demek, hem negatif hem pozitif hem de -1, çift olmayanları donguye sok dedik
+                              // 2 ye bolununce kalan 0 dan farklı ıse ekle dedık
+              teklerList.add(dizi[i]);
 
         }
 
 
         System.out.println("teklerList = " + teklerList);
 
-
-
-
-
     }
+
+
 }

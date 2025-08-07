@@ -17,11 +17,11 @@ public class Banka {
     }
 
     public Banka(String bankaAdi, int kurulusYili) {
-        this(bankaAdi,kurulusYili,0);
+        this(bankaAdi,kurulusYili,0);     // bu this leri kendimiz yaptık sag tık generate den yapmadık
     }
 
     public Banka(String bankaAdi) {
-        this(bankaAdi,0,0);
+        this(bankaAdi,0,0);  // bu this leri kendimiz yaptık sag tık generate den yapmadık
     }
 
     public String toString() {

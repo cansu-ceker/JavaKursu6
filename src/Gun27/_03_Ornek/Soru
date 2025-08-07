@@ -1,4 +1,4 @@
-Bir Üniversitede öğrencilere ders kaydı yapılacaktır.
+Bir Üniversitede öğrencilere ders kaydı programı yapılacaktır.
 1- Lesson : fields : name, saat (1-10 arasında değer alıyor).
 2- Student: fields : name, maxSaat ve dersleri adında derslerini listesini tutacak bir liste.
 3- 3 adet ders oluşturunuz.
@@ -6,3 +6,5 @@ Bir Üniversitede öğrencilere ders kaydı yapılacaktır.
 5- Bu öğrencinin ders listesine açılmış dersleri ekleyiniz.
 6- Unıversıte kurallarını yazdıran 2 maddelik bir not yazdıran metod ekleyinız (Ogrenci ye ).en basta
 yazdırınız.
+
+

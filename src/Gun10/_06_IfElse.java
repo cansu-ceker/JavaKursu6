@@ -11,7 +11,6 @@ public class _06_IfElse {
         // 3) en fazla 12 karakter olmalı.
 
 
-
         Scanner oku=new Scanner(System.in);
         System.out.print(" Password= ");
         String sifre= oku.nextLine();
@@ -22,8 +21,7 @@ public class _06_IfElse {
         System.out.println("UYGUN");
 
 
-        else
-        System.out.println("UYGUN DEĞİL");
+        else  System.out.println("UYGUN DEĞİL");
 
 
          // bu örnekte hepsi VE && olduğu için ( ) kullanmadık

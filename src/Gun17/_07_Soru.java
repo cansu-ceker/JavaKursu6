@@ -8,8 +8,7 @@ public class _07_Soru {
 
         // 10 elemanlı bir diziyi random(10 dahil sayılarla) doldurduktan sonra,
         // kullanıcının  gireceği bir rakamı arattırınız.
-        // bu rakam var ise indexini yazıdırnız.
-
+        // bu rakam var ise indexini yazdırınız.
 
 
         int []dizi=new int[10];
@@ -18,8 +17,8 @@ public class _07_Soru {
         for (int i = 0 ; i<dizi.length ; i++)
           dizi[i]= (int) (Math.random()*11); // 10 dahil dediği için
 
-        //  yukarıdaki for u kullanmadan onun yerine :
-       //   System.out.println("Arrays.toString(dizi) = " + Arrays.toString(dizi)); yazabilirim.
+        //   yazdırmak ıcın for dongusu kullanıyoduk ya ona gerek kalmadı onun yerine bır alttakı sout u yazarım ekrana dızıyı yazdırmak ıstersem:
+       //   System.out.println("dizi = " + Arrays.toString(dizi)); yazabilirim.
 
         Scanner oku=new Scanner(System.in);
         System.out.print("Aranan sayıyı gir=");

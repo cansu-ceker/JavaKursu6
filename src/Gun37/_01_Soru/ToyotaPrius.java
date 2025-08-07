@@ -8,7 +8,7 @@ public class ToyotaPrius extends Vehicle implements IElectric, IGas {
 
     @Override
     public String changeBattery() {
-        return "ömğr bıyu kullanılan batarya";
+        return "ömür bıyu kullanılan batarya";
     }
 
     @Override

@@ -25,7 +25,7 @@ public class _07_Ornek {
         // System.out.println("Çevresi = " + cevre);   -- bır usttekı yerıne bu ıkısını de yazabılırız
        // System.out.println("Alanı = " + alan);
 
-
+        System.out.println("toplam:"+(kisaKenar+uzunKenar));
 
 
 

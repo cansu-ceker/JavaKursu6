@@ -12,7 +12,7 @@ public class _05_WhileLoop {
 
         int toplam=0;
         int sayac=1;
-        while (sayac<=5)
+        while (sayac<=5)  // iken yap: şartı yazıyoruz, dönme şartını
         {
             System.out.println(sayac+".sayi giriniz=");
             int sayi= oku.nextInt();

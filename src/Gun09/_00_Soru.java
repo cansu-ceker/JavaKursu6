@@ -8,12 +8,17 @@ public class _00_Soru {
         //girilen bir sayının tek sayı olup olmadığını yazdırın
         //true veya false
 
+
         Scanner oku=new Scanner(System.in);
         System.out.print("Sayı gir = ");
         int sayi= oku.nextInt();
 
 
         System.out.println("TEK Mİ = " +((sayi%2)==1) );
+
+        int kalan= sayi%2;
+        boolean tekMi=(kalan==1);
+        System.out.println("tekMi = " + tekMi);
 
 
         /* ya da uzunca aşagıdakılerı yazarsın dırekt sout ıcıne yazmakta zorlanırsan, yazasın int sayi yi  tanımladıktan sonra

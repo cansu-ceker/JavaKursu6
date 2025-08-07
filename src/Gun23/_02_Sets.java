@@ -14,7 +14,7 @@ public class _02_Sets {
         // TreeSet        : her zaman içinde SIRALI tutar, kendinden sortlu, ALFABETİK SIRALI eger String ise
         //                                                                   SAYISAL SIRALI eger int ise
 
-        HashSet<String>hs=new HashSet<>();
+        HashSet<String>hs=new HashSet<>(); // kafasına gore sırasız hızlıca calısmak ıcın 
         hs.add("bir");
         hs.add("iki");
         hs.add("üç");
@@ -24,16 +24,16 @@ public class _02_Sets {
         System.out.println("hs = " + hs);
 
 
-        LinkedHashSet<String>lhs=new LinkedHashSet<>();
+        LinkedHashSet<String>lhs=new LinkedHashSet<>();   // hangı sırayla eklendıyse oyle yazdırdı
         lhs.add("bir");
-        lhs.add("iki");
-        lhs.add("üç");
+        lhs.add("yedi");
+        lhs.add("sekiz");
         lhs.add("dört");
-        lhs.add("beş");
+        lhs.add("iki");
         lhs.add("bir"); // bunu eklemez çünkü TEKRAR EDENİ YAZMAZ
         System.out.println("lhs = " + lhs);
 
-        TreeSet<String> ts=new TreeSet<>();
+        TreeSet<String> ts=new TreeSet<>();  // alfabetık sırayla a b c d... yazdırdı
         ts.add("bir");
         ts.add("iki");
         ts.add("üç");

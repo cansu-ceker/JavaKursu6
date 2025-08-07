@@ -20,6 +20,6 @@ public class Otobus extends Arac{
 
     @Override
     public String toString() {
-        return super.toString()+this.yolcuKapasitesi;   //yan taraftan getırdıgın mırafa yolcukapasıtesını de eklttım
+        return super.toString()+"\nkapasite=" +this.yolcuKapasitesi;   // sag tok generate override tostrng ıle yan taraftan getırdıgım mırasa yolcukapasıtesını de yazdım kendım eklttım
     }
 }

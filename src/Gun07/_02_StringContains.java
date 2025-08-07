@@ -11,12 +11,12 @@ public class _02_StringContains {
               String cumle="Merhaba Dünya";
 
               boolean varMi =cumle.contains("a");
-              System.out.println("varMi a = " + varMi);
+              System.out.println("varMi a = " + varMi);  //true
 
 
-              System.out.println("varMi a = " + cumle.contains("a"));
-              System.out.println("varMi ya = " + cumle.contains("ya"));
-              System.out.println("varMi z = " + cumle.contains("z"));
+              System.out.println("varMi a = " + cumle.contains("a"));  //true
+              System.out.println("varMi ya = " + cumle.contains("ya")); //true
+              System.out.println("varMi z = " + cumle.contains("z")); //true
 
     }
 }

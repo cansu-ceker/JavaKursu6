@@ -7,7 +7,7 @@ public class _06_BooleanType {
         //baklava diliminde sorulan soru cevabı gibi
 
 
-        boolean devamMi=false; // true,false
+        boolean devamMi=false; // true ya da false yazabılırsın sadece
 
         System.out.println("devamMi = " + devamMi);
 

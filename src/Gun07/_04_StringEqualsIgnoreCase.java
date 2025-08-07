@@ -15,8 +15,8 @@ public class _04_StringEqualsIgnoreCase {
 
 
 
-
-
+     boolean esitMi3 = s1.equalsIgnoreCase(s2);
+        System.out.println("esitMi3 = " + esitMi3);
 
 
 

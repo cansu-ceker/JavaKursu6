@@ -43,7 +43,7 @@ public class _03_Duration {
 
         System.out.println("*************************** Kodun Performansı **********************************************");
         long finishTime=System.currentTimeMillis();
-        System.out.println("finish-startTime = " + (finishTime-startTime));
+        System.out.println("gecen sure = " + (finishTime-startTime));
 
 
 

@@ -11,7 +11,7 @@ public class _05_Ornek2 {
         // double yaricap;
         // double cevre;
         //double alan;
-        //double yaricap,cevre,alan;
+        //double yaricap,cevre,alan;  bu sekılerde de ılk etapt tanımlayıp asagıda da kulanabılırdım
 
 
         double yaricap=4.2;

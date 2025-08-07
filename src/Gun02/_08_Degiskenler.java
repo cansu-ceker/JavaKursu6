@@ -4,7 +4,7 @@ public class _08_Degiskenler {
     public static void main(String[] args) {
 
         int sayi;  //bana int miktarınca bir tam sayı saklayacak kadar yer ayır dedim
-                   // adına da sayı dedim
+                   // bu yerin adına da sayı dedim
 
         int Sayi;   //sayi ve Sayi tamamen farklıdır.
         int saYi;   // bu da diğerlerinden farklı
@@ -23,6 +23,8 @@ public class _08_Degiskenler {
 
 
         System.out.println("sayi="+sayi);  //  sayi=5 yazdırır
+
+
 
 
 

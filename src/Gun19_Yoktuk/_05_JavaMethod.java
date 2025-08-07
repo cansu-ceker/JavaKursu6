@@ -4,10 +4,10 @@ public class _05_JavaMethod {
     public static void main(String[] args) {
 
         merhabaYaz(); // Math.random(); a benziyor
-        merhabaYaz();
+        merhabaYaz(); // yanı bır sey almadan gonderıyor
 
-        merhabaYazIsme("İsmet");  //Math.Abs(-10)
-        cokMerhabaYaz(5);
+        merhabaYazIsme("İsmet");  //Math.Abs(-10) a benziyor
+        cokMerhabaYaz(5); // ısmı alıyor, sonra cevabı gonderıyor burada y ada mıktarı alıp cevabı godnerıyor
 
 
     }
@@ -24,8 +24,8 @@ public class _05_JavaMethod {
     public static void cokMerhabaYaz(int miktar)
     {
         for (int i = 0 ; i <miktar ; i++)
-
         System.out.println("Merhaba");
+
     }
 
 

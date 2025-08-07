@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class _03_JavaTernary {
     public static void main(String[] args) {
 
+        // kullanıcının gireceği sayının tek mi çift mi oldugunu yazdırınız
+
         Scanner oku=new Scanner(System.in);
         System.out.println("sayi=");
         int sayi=oku.nextInt();
@@ -18,8 +20,8 @@ public class _03_JavaTernary {
 
 
         // 1. kısa yöntem
-        String sonuc= (sayi%2 ==0) ? "çift" : "tek";    // ? if demek, : else demek
-        System.out.println(sonuc);
+        String sonuc= (sayi%2 ==0) ? "çift" : "tek";    //    ? if demek  (ise gibi burada)
+        System.out.println(sonuc);                      //    : else demek
 
         // 2. kısa yöntem
         System.out.println( (sayi%2==0) ? "çift" : "tek");

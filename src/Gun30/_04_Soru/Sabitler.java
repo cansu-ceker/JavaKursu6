@@ -8,25 +8,25 @@ public class Sabitler {
 
     // static yazmadan final int saat=24; deseydik,
     // Sabitler sb=new Sabitler(); yapmak ve
-    // sb.dakika vs yazmamaız gerekırdı maine habıre, bunları yapmadan ılerleyelım dıye static ekledik basına bir de
+    // sb.dakika vs yazmamaız gerekırdı maine habıre, bunları yapmadan ılerleyelım dıye static ekledik basına
 
-    final static int birGundekiSaat=24;
-    final static int birSaattekiDakika=60;
-    final static int birDakikadakiSaniye=60;
+    public final static int birGundekiSaat=24;  // public koysak da olur koymasak da, koyunca ne oldu? dıger gunleden dıger classlardan da erişilebilir oldu herhang bır gunu mainine git Sabitler. yap bu parametrelerın secenek olarak geldıgını goreceksın
+    public final static int birSaattekiDakika=60;
+    public final static int birDakikadakiSaniye=60;
 
 
     public static int hesaplama(int gun, int saat, int dak)
     {
-        int toplamSaniye= gun*
+        int toplamSaniye= gun*   // burası kullanıcının gırdıgı gun de ne kadar sanıye var bulma
                 Sabitler.birGundekiSaat
                 *Sabitler.birSaattekiDakika
                 *Sabitler.birDakikadakiSaniye
                 +
-                saat*
+                saat*  // burası kullanıcının gırdıgı saatte ne kadar sanıye var bulma
                         Sabitler.birSaattekiDakika
                         *Sabitler.birDakikadakiSaniye
                 +
-                dak* Sabitler.birDakikadakiSaniye;
+                dak* Sabitler.birDakikadakiSaniye;  // burası kullanıcının gırdıgı dakıkada ne kadar sanıye var bulma
 
         return toplamSaniye;
     }

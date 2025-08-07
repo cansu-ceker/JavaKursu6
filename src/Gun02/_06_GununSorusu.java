@@ -7,5 +7,7 @@ public class _06_GununSorusu {
 
         System.out.println("\"Hello\t\", \"World\t\t\\/\"");
 
+
+
     }
 }

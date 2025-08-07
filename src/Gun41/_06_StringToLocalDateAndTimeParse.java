@@ -17,7 +17,10 @@ public class _06_StringToLocalDateAndTimeParse {
         DateTimeFormatter f=DateTimeFormatter.ofPattern("dd MM yyyy");
         LocalDate tarih=LocalDate.parse(strTarih,f); // girilen tarihi f formatıne gore dönüştür
 
-        System.out.println("tarih.format(f) = " + tarih.format(f));
+
+        System.out.println(tarih);
+
+       // System.out.println("tarih.format(f) = " + tarih.format(f));
 
 
 

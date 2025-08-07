@@ -1,7 +1,7 @@
 package Gun35._02_polymorphism;
 
 public class CiftlikMain {
-    public static void main(String[] args) {
+    public static void main(String[] args) {    // en altta tanım var
 
         Kopek ko1=new Kopek("karabaş");
 //        ko1.ses();  // havladı
@@ -14,7 +14,12 @@ public class CiftlikMain {
 //      kopekSesi (ko1);  // havladı
 //      kediSesi(ke1); // miyavladı
 //
-//        // kopekSesi(ke1); olmadı
+        /*
+         kopekSesi(ke1); olmadı kedı kopegı kopek de kedıyı kabul etmedı
+
+         public static void kopekSesi (Kopek k){    (buraya ) ke1 gonderdık, dedi ki ben kopegıım kedıyı kabul etmem
+         k.ses();
+        */
 
       hayvanSesi(ko1);
       hayvanSesi(ke1);
@@ -42,39 +47,32 @@ public class CiftlikMain {
         hayvan3.ses();  //mıyavladı
 
         System.out.println("**********************************");
-        ((Kopek)hayvan2).kokladi();
-
-//        Polymorphism -
-//                çok formluluk  - Çok çeşitlilik
-//        şizofren bir konu
-//
-//        :  Bir NESNE istenildiğinde, aynı zamanda extend edildiği tür gibi davranmasına
-//        ve bu şekilde kullanılabilmesine Polymorphism denir.
-
-        // öğretmenin okulda "fizik öğretmeniyim" demesi,
-        // mahallede "öğretmenim" demesi gibi.
+        ((Kopek)hayvan2).kokladi();     // hayvan2 sen kopeksın dıyrouzsu sekılde (Kopek)hayvan2
 
 
     }
 
-    public static void hayvanSesi(Hayvan hayvan){
-        hayvan.ses();
-         // bir classın altında kim oldugunu bulma yöntemi
-        if (hayvan instanceof Kopek) // hayvan aslında kopekse
-            ((Kopek)hayvan).kokladi();
+        public static void kopekSesi(Kopek kopek){
+            kopek.ses();
+        }
 
-        if (hayvan instanceof  Kedi)  // hayvan aslında kediyse
-            ((Kedi)hayvan).tirmaladi();
+        public static void kediSesi(Kedi kedi){
+            kedi.ses();
+        }
+
+
+    public static void hayvanSesi(Hayvan hay){                                        //  kedı extends hayvan
+        hay.ses();                                                                    //  kopek extends hayvan yaptık ya classları yanı kedı de kopek de hayvan dedık, kedı de kopek de hayvan oldugunu bılıyor su an o yuzden hayvan
+         // bir classın altında kim bu kedı mı kopek mı oldugunu bulma yöntemi if     //  public static void hayvanSesi(Hayvan hay) yapınca bu hem kedıyı hem kopegı kabul ettı ıkısı de hayvan dıye
+        if (hay instanceof Kopek) // gelen hay, sen hayvanlarda  kopeksen                 INHERITANCE aldıgım tıpe burunuyorum dıyor yanı
+            ((Kopek)hay).kokladi();                                                   //  kedıyım ama hayvanım aslında   kedi extends hayvan
+                                                                                      //  kopegım ama hayvanım aslında   kopek extends hayvan
+        if (hay instanceof  Kedi)  // gelen hay, sen hayvanlard kediysen
+            ((Kedi)hay).tirmaladi();
     }
 
 
-    public static void kopekSesi(Kopek kopek){
-        kopek.ses();
-    }
 
-    public static void kediSesi(Kedi kedi){
-        kedi.ses();
-    }
 }
 //  Hayvan classından türettiğimiz-extend yaptığımız için
 //  hayvanSesi olarak eklediğimiz methoddan yazdırdığımızda da
@@ -82,3 +80,33 @@ public class CiftlikMain {
 //  özellikleri alarak yazdı.
 //  Ama tırmaladı , kokladı gibi kedi, köpek classına özel olarak
 //  yazdıklarımızı hayvanSesi methodunda yazdıramayız. illa iflemeli
+
+/*
+    classlar ınherıtance aldgı yanı kaynak class ın tıpınde  uretılırse, o super class ın tıpıne burunuyorlar kendı ozellklerını kaybetmıyorlar.
+    ama kendı ozellıklerını gosteremıyorlar. onların kendı ozellıklerının ortay cıkması ıcın sen kopeksın sen kedısın gbı belırtmemız grekıyor
+
+    buna cok cesıtlılık denır POLYMORPHISM deniyor
+
+*********************----------Polymorphism----------***********************************
+                    çok formluluk  - Çok çeşitlilik
+                           şizofren bir konu
+
+         Bir NESNE istenildiğinde, aynı zamanda extend edildiği tür gibi davranmasına
+         ve bu şekilde kullanılabilmesine Polymorphism denir.
+
+         öğretmenin okulda "fizik öğretmeniyim" demesi,"matematık ogretmenıyım" demesi
+         mahallede "öğretmenim" demesi gibi.
+         ama okula gıttıgınde matematık ogretmenın matematık
+                              fızık ogretmenının fızık dersı anlatması da ozellıklerını gostermesı
+
+       Aynı sınıftan turedıgı zman o merkezı sınıf yanu super clasın turunde bır nesneyı baska bır yeregonderıp oradan yıne kendı metodunda calısma olayına
+
+       farklı metodlarda ffarklı referans tıplerıyla calısmasına denır
+
+
+
+
+
+
+
+ */

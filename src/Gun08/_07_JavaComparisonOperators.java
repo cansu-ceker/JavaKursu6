@@ -28,7 +28,8 @@ public class _07_JavaComparisonOperators {
         System.out.println("a b den küçük veya eşit mi = " + (a<=b));   //true
 
 
-
+        //   a==b  eşit mi a ile b
+        //   a!=b  farklı mı a ile b
 
 
 

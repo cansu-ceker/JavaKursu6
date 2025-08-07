@@ -1,6 +1,10 @@
 package Gun36._05_Interface;
 
 public class Test implements IGosterir,IYazdirir{
+                                   // implements edılen  IGosterir ve IYazdirir daki ortak olan metodlardan 1 tane aldı
+                                   // yanı hem gosterırden yaz() metodunu
+                                   //      hem yazdırırdan yaz() metodunu alıp gelmedı
+                                   // BIR TANESINI ALDI GELDI cnku ıkısı de aynı.
     @Override
     public void goster() {
         System.out.println("gösterdi");

@@ -9,15 +9,14 @@ public class _04_Ornek {
         // alıp birlikte ekrana yazdırın
 
 
-      Scanner oku=new Scanner(System.in);
-
+      Scanner oku=new Scanner(System.in);  // ıkı tane okunan da Strşng ldugu ıcın okunanların tıpı aynı oldugu ıcın bır tane bunu yazmamız yeterlı
+                                           // ınt okumamız gereken bır verı olsaydı onu  okuyucu.nextInt()   -> bir tam sayı(int) yapmamz gerekırdı bır de ınt okusun dıye mesela
         System.out.print("Adınızı giriniz = ");
-
         String ad=oku.nextLine();
 
         System.out.print("Soyadınızı giriniz = ");
-
         String soyad=oku.nextLine();
+
 
         System.out.println("ad = " + ad);
         System.out.println("soyad = " + soyad);

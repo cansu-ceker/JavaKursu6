@@ -20,15 +20,6 @@ public class _08_Soru {
         System.out.println(ilkHarf+"."+soyadIlkHarf+".");
 
 
-
-
-
-
-
-
-
-
-
     /* ayrı ayrı girdirdim bu benım cevap
         Scanner oku=new Scanner(System.in);
         System.out.print(" Ad= ");
@@ -41,6 +32,15 @@ public class _08_Soru {
         char s=soyad.charAt(0);
 
         System.out.println("Ad Soyad = " + a+". "+s+". ");
+
+
+        bu da benım cevabım :
+
+        Scanner reader = new Scanner(System.in);
+        System.out.print(" Ad soyad= ");
+        String name=reader.nextLine();
+        System.out.println("shortName= " + name.charAt(0) +"."+ name.charAt(name.indexOf(" ")+1)+".");
+
 
 */
 

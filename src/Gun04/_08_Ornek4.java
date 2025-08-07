@@ -3,7 +3,9 @@ package Gun04;
 public class _08_Ornek4 {
     public static void main(String[] args) {
 
-         //int to String, rakamları yazıya çevrilmesi
+         //int to String, rakamların yazıya çevrilmesi
+
+        // ÖNEMLİİİİİİİİİİİİİİİİİİİİİİİİİİİİİİİİİİİİ
 
 
         String ad= "Cansu Çeker";
@@ -11,8 +13,8 @@ public class _08_Ornek4 {
         char subesi='E';
         boolean gectiMi=true;
 
-
-        System.out.println(ad+sinifNo+subesi+true);
+                       //(String+int+char+boolean)
+        System.out.println(ad+sinifNo+subesi+gectiMi);     // Cansu Çeker6Etrue  yazdı ekrana
         // + nın herhangi bir tarafında String varsa,
         // diğer değişken otomatik String e dönüşür
 

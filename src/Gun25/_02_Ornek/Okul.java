@@ -2,6 +2,7 @@ package Gun25._02_Ornek;
 
 public class Okul {
     public static void main(String[] args) {
+// main için kullanılan dosya burası
 
         Ogrenci ogr1=new Ogrenci();
 

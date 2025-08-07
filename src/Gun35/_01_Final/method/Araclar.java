@@ -15,15 +15,19 @@ public class Araclar {
         this.model = model;
     }
 
-    public final void setKilometre()
-    {
-        System.out.println("gosterge set edildi.");
-    }
-
     @Override
     public String toString() {
         return "Araclar{" +
                 "model='" + model + '\'' +
                 '}';
     }
+
+    public final void setKilometre()
+    {
+        System.out.println("gosterge set edildi.");
+    }
+
+
+
+
 }

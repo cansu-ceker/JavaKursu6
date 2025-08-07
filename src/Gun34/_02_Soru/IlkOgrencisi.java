@@ -12,7 +12,7 @@ public class IlkOgrencisi extends Ogrenci {
 
     @Override
     public String toString() {
-        return super.toString()+"klup:"+ this.klup;
+        return super.toString()+" ,klup="+ this.klup;
     }
 
     public String getKlup() {

@@ -24,6 +24,6 @@ public class _08_ThrowExample {
         }
 
 
-
+// bunu boyle yoamak yerıne daha guzel bır yontemı var bır sonrakı 08 throwexample2 de yanı dıger class ta
     }
 }

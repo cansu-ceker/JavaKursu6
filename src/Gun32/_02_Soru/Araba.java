@@ -5,7 +5,7 @@ public class Araba {
     private String renk;
     private int model;
     private int motorHacmi;
-    private int kapiSayisi;
+    private int kapiSayisi;   // hepsinin basına aynı anda private yazmanın kısayolu: alt tusuna basılı tut, mousea bır clıck yap asagı dogru cek sonra yaz yazını
 
     public Araba() {
     }

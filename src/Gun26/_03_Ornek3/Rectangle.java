@@ -1,11 +1,11 @@
 package Gun26._03_Ornek3;
 
-public class Rectangle {
+public class Rectangle {  //alttaı metodların hepsını bu class ın ıcıne yazdık
 
     int width;
     int length;
 
-    public void cevre( )
+    public void cevre( ) // sattik demedik, this. seklınde yaptık
     {
     int cevre= 2*(this.length+this.width);
         System.out.println("cevre = " + cevre);
@@ -18,7 +18,7 @@ public class Rectangle {
 
     }
 
-    public int cevre2( )  //return varsa yanı gıdecek bı sey varsa main e, ne gdıyorsa onun cinsini yaz, pıblic in yanına int yazdık burada
+    public int cevre2( )  //return varsa yanı  main e gıdecek bı sey varsa, ne gdıyorsa onun cinsini yaz, pıblic in yanına int yazdık burada
     {
         int cevre= 2*(this.length+this.width);
         return cevre;
@@ -35,11 +35,5 @@ public class Rectangle {
         this.width=a;
         this.length=b;
     }
-
-
-
-
-
-
 
 }

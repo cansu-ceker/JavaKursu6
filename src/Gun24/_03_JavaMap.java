@@ -18,7 +18,8 @@ public class _03_JavaMap {
         hm.put(30,"köpek");
         hm.put(11,"kuş");
         hm.put(4,"kurt");
-        System.out.println("hm = " + hm);  // hızlı çalışmak için, kendisine göre sıralıyor
+        System.out.println("hm = " + hm);  // bu sekılde fotografını cıkarıyor onumuze
+                                           // hızlı çalışmak için, kendisine göre sıralıyor
 
 
 

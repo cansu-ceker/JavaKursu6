@@ -11,7 +11,10 @@ public class _06_forLoop {
         {
             System.out.println("sayı = " + i);
 
-        }   // süslü parantez if te mantıkla aynı yani 1 işlem varsa süslü parantez zorunlu değil o sebeple buna koydum alttakıne koyymadım cunku olsa da olur olmasa da olur
+        }   // süslü parantez if teki mantıkla aynı yani 1 işlem varsa süslü parantez zorunlu değil o sebeple buna koydum alttakıne koyymadım cunku olsa da olur olmasa da olur
+
+
+
 
 
         int i;            // sayac1 i , bazen 2 sayac oluyor o zaman da sayac2  j dıyorlar
@@ -19,12 +22,6 @@ public class _06_forLoop {
         for (i=10 ; i>=0 ; i--)            // f ye basınca fori var o direkt taslak çıkarıyor
 
             System.out.println("sayı = " + i);
-
-
-
-
-
-
 
 
 

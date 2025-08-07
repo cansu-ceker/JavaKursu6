@@ -9,7 +9,7 @@ public class _01_JavaMap {
         // Set -> HashSet   LinkedHashSet   TreeSet
         // Map -> HashMap   LinkedHashMap   TreeMap
         // Map -> Anahtar + Set -> Anahtarlı Set  (TEKRAR eden anahtarlar YOK,değerler tekrar edebilir ama key ler yani anahytarlar tekrar edemez 2 kişinin TCsi yani anahtarı aynı olamaz)
-
+       //      -> ındex yok map te
 
         // anahtarın tipi Integer, değerin tipi String. Integer-Arraylist, set ne ıstersen atayabılrısın ya da ne bıleyım String-String vs de olur sen nasıl istersen
 
@@ -22,7 +22,7 @@ public class _01_JavaMap {
         hm.put(1002, "Yusuf Yılmaz");
         hm.put(2001, "Buğra Yıldız");
         hm.put(5001, "Elife Sözen");
-        hm.put(1002, "Seda Parça");   // 2 kez  1002 yazmadı 1 kez 1002 yazdı ama en sonki değerini aldı yani 1002=Seda Parça oldu ve kafasına göre sıralayıp yazdı
+        hm.put(1002, "Seda Parça");   // 2 kez  1002 yazmadı 1 kez 1002 yazdı, once eklenen 1002 yı sonra eklenen 1002 olarak degıstırıp sonrdakını ekledı yanı en sonki değerini aldı yani 1002=Seda Parça oldu ve kafasına göre sıralayıp yazdı
 
         System.out.println("hm = " + hm);
 
@@ -38,7 +38,6 @@ public class _01_JavaMap {
 
         hm.remove(5001); // 5001 i sildirdik
         System.out.println("hmSilindi5001 = " + hm);
-
 
 
 

@@ -14,21 +14,12 @@ public class _08_JavaNestedLoop {
         for (int satir = 1 ; satir <6 ; satir++)
         {
 
-            for (int i = 1 ; i <=satir ; i++)
-
-
+            for (int i = 1 ; i <=satir ; i++){
                 System.out.print("*");
+            }
 
             System.out.println();
 
         }
-
-
-
-
-
-
-
-
     }
 }

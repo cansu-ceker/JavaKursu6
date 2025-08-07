@@ -7,7 +7,9 @@ public class P2Main {
 
         P1Hayvan p1h=new P1Hayvan();
         p1h.ad="karakedi2";  //public diye ulaştık
-        // yas  default ulasamadık, cnku yasın oldugu P1Hayvan ıle bu P2Main aynı paketın ıcınde ulasamadık
+        // yas   ulasamadık, cnku yas default olarak tanımlandı P1Hayvan da,
+        // default olarak tanımlanan verıye,sadece aynı paketten ulaşılabilir
+        // yasın oldugu P1Hayvan ıle bu P2Main aynı pakette degıl dıye ulasamadık
 
 
 

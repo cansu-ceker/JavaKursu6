@@ -8,6 +8,7 @@ public class _02_Ornek {
         // kullanıcdan cadde(String) sokak(String),postakodu(int),ülke(String)
         // evSahibi(boolean) şeklinde adres bilgisi olarak yazdır
 
+
         Scanner okuStr= new Scanner(System.in);   // Stringleri okuması için
         Scanner okuInt=new Scanner(System.in);     // integer ları okuması için
         Scanner okuBool=new Scanner(System.in);    // booleanları okuması için
@@ -20,7 +21,6 @@ public class _02_Ornek {
 
         System.out.print("Ülke: ");
         String ulke= okuStr.nextLine();
-
 
 
         System.out.print("Posta kodu: ");

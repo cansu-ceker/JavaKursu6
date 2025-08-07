@@ -10,7 +10,7 @@ public class _05_forLoop {
 
         while (sayac<=5)
         {
-            System.out.println("sayac = " + sayac);
+            System.out.println("sayac while = " + sayac);
             sayac++;
         }
 
@@ -31,7 +31,7 @@ public class _05_forLoop {
              Döngülerle ilgili sonuç özeti
           1- Kaç kere döneceği belli ise : FOR düngüsü
           2- Kaç kere döneceği belli değilse While veya doWhile
-          3- kontrol başta ise While,  sonda doWhile kullanacağız.
+          3- kontrol başta ise While,  sonda ise doWhile kullanacağız.
        */
 
 

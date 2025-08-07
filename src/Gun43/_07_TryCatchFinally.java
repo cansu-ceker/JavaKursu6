@@ -16,7 +16,7 @@ public class _07_TryCatchFinally {
             System.out.println("hata bloğu çalıştı");
         }
         finally {
-            // hata olsa da olmasa da çalışıyor
+            // hata olsa da olmasa da  bu finally bölümü çalışıyor
             // try catch bloğuyle ilgili kodlar yazılır
             System.out.println("try-catch bloğu ile ilgili son yapılacaklar");
             System.out.println(System.currentTimeMillis()-startTime);

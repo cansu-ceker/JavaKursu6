@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 public class _03_JavaLocalTime {
     public static void main(String[] args) {
 
-        // LocalTime : Tarih bilgisi içermez sadece saat,dak, san
+        // LocalTime : Tarih bilgisi içermez sadece saat,dakika, saniye, nano sanıye
 
         LocalTime saat= LocalTime.now();
         System.out.println("saat = " + saat);  //21:24:02.094 (şu an saat bu)

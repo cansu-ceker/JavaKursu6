@@ -21,11 +21,11 @@ public class Calisan {
 
     @Override
     public String toString() {
-        return "Calisan{" +
-                "isim='" + isim + '\'' +
-                ", maas=" + maas +
-                ", maasKatSayisi=" + maasKatSayisi +
-                '}';
+        return "Calisan"+
+                "\nisim=" + isim +
+                "\nmaas=" + maas +
+                "\nmaasKatSayisi=" + maasKatSayisi +
+                "\nödenecek maaş="+ maasHesapla();
     }
 
     public String getIsim() {

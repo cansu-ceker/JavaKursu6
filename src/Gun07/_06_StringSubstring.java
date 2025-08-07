@@ -3,12 +3,12 @@ package Gun07;
 public class _06_StringSubstring {
     public static void main(String[] args) {
 
-        //
+        //substring -> string in belli ir bölümünü alma işlemi yapar
 
 
        //           012345678...
         String cumle= "Merhaba arkadaşlar";
-
+                                   // 3 nolu indexten 9 nolu index E KADAR al
         String parca1=cumle.substring(3,9);   // 3 den 9 a kadar al 9 dahil DEĞİL
         System.out.println("parca1 = " + parca1); //haba a
 

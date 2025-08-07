@@ -4,7 +4,7 @@ public class _01_forLoop {
     public static void main(String[] args) {
 
         //0 dan 100e kadar olan çift sayıların toplamını bulun
-        // toplam 50 yi geçtiğinde "50 geçildi" yazsın ve bunu ılk asıldıgında yazsın sonra yazmasın
+        // toplam 50 yi geçtiğinde "50 geçildi" yazsın ve bunu ılk asıldıgında yazsın sonra yazmasın ve toplamayı kessın
 
 
         int toplam=0;
@@ -27,7 +27,11 @@ public class _01_forLoop {
 
         System.out.println("toplam = " + toplam);
 
-
+/*
+        while- donme sayısı bellı degıl kontrol basta
+        doWhile- donem sayısı bellı degıl konrol sonda
+        for- baslandıgcı bellı sartısı ve sonu bellı
+ */
 
 
 

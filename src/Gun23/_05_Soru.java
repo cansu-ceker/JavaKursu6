@@ -4,6 +4,7 @@ import Tools.MyFunc;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Scanner;
 import java.util.TreeSet;
 
 public class _05_Soru {
@@ -13,16 +14,22 @@ public class _05_Soru {
         // doldurduktan, tekrarlı değerleri almayacak şekilde yeni bir
         // diziye atınız.
 
-//         int []dizi=new int[10];
-//
-//        for (int i = 0 ; i <dizi.length ; i++)
-//        {
-//            dizi[i]= (int)(Math.random()*11);  // 10 dahil diye 11 dedik
-//             // System.out.println("dizi = " + dizi[i]); boyle tek tek yazdırıyor
-//        }
-//
-//        System.out.println("Arrays.toString(dizi) = " + Arrays.toString(dizi));  // boyle dizi= [..,..,..,..) dıye yazdııryor
-//
+
+
+//   int []dizi=new int[10];
+
+ //     for (int i = 0 ; i <dizi.length ; i++)
+//      {
+//        dizi[i]= (int)(Math.random()*11);  // 10 dahil diye 11 dedik
+//         System.out.println("dizi = " + dizi[i]); boyle tek tek yazdırıyor
+//      }
+
+//       System.out.println("Arrays.toString(dizi) = " + Arrays.toString(dizi));  // boyle dizi= [..,..,..,..) dıye yazdııryor
+        //hem String hem int diziyi direkt ekrana yazdırmak için
+
+
+
+
 //
 //
 //        TreeSet<Integer> ts=new TreeSet<>();   // sıralı olsun dıye seceyım dedık
@@ -35,7 +42,7 @@ public class _05_Soru {
 
 
         //2.YOL, dizi yi set e atacaksan Integer diye yazmalısın
-
+/*
         Integer []dizi=new Integer[10];
 
         for (int i = 0 ; i <dizi.length ; i++)
@@ -49,8 +56,12 @@ public class _05_Soru {
 
 
 
-
+*/
 
 
     }
+
+
+
+
 }

@@ -11,7 +11,7 @@ public class _01_JavaRandom {
         // 10 la çarparsam
         // 0 - 9,9999999999999
         // (int) 0-9
-        int rndTamSayi= (int) (randSayi*10); // 0-9
+        int rndTamSayi= (int) (randSayi*10); // 0-9 arasında bır sayı uretır
         System.out.println("rndTamSayi = " + rndTamSayi);
     }
 }

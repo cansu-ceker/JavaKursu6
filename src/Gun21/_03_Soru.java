@@ -32,7 +32,6 @@ public class _03_Soru {
 
        while ( cevap.equalsIgnoreCase("E") );  // döngünün devam şartı, e de olsa E de olsa gir bu döngüye
 
-
         // ortalamayı kaç öğrenci geçmiş
 
         double ort=toplam/notlarList.size();
@@ -48,7 +47,6 @@ public class _03_Soru {
 
 
         System.out.println("ortalamayı geçen öğrenci sayısı = " + gecenSayisi);
-
 
 
     }

@@ -17,7 +17,7 @@ public class _04_Sets {
         System.out.println("hs = " + hs);              // kafasına göre bir sırayla yazar
         System.out.println("hs.size() = " + hs.size());   // 6 eleman var uzunlugu bu
 
-        hs.remove(5);   // değere göre siler yani 5 i siler
+        hs.remove(5);   // değere göre siler yani 5 i siler cnku setlerde ındex yok
 
         System.out.println("5 i silerek yazar = " + hs);
 

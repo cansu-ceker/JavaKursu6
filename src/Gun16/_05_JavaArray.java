@@ -8,6 +8,7 @@ public class _05_JavaArray {
         // Kullanıcıdan alacağınız 7 sayıyı aldıktan sonra
         // kaç tanesinin ortalamadan büyük ve tek sayı olduğunu bulunuz.
 
+
         Scanner oku=new Scanner(System.in);
 
         double toplam=0;
@@ -34,14 +35,6 @@ public class _05_JavaArray {
 
         System.out.println("ortalama = " + ortalama);
         System.out.println("ortalamayı geçenlerin adet = " + adet);
-
-
-
-
-
-
-
-
 
     }
 }

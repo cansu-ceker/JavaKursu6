@@ -11,7 +11,6 @@ public class _01_JavaLocalDate {
     //LocalDate sadece gun ay yıl bilgisini tutar
         
         LocalDate tarih =LocalDate.now();  // şu andaki tarihi verir
-        
         System.out.println("tarih = " + tarih); 
         System.out.println("yılını ver = " + tarih.getYear());
         System.out.println("ayını ver = " + tarih.getMonth());
@@ -52,7 +51,7 @@ public class _01_JavaLocalDate {
 
         DateTimeFormatter ozel6= DateTimeFormatter.ofPattern("MMMM dd EEEE yyyy");
         System.out.println("tarih.format(ozel6) = " + tarih.format(ozel6)); // Temmuz 19 Çarşamba 2023
-        // System.out.println("ozel6 = " + ozel6);  // bu sekılde olmaz, ozel6 bır formattır ve  formatı dırekt yazdıramayız
+        // System.out.println("ozel6 = " + ozel6);  // bu sekılde olmaz, ozel6 bır formattır ve  formatı dırekt yazdıramayız     ****************************
 
        // tek kalemde şu şekilde de yazılabilir
           System.out.println("tarih.format(ozel6) = " + tarih.format(DateTimeFormatter.ofPattern("MMMM dd EEEE yyyy")));

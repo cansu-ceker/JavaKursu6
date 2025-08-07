@@ -1,5 +1,6 @@
 package Gun18_Yoktuk;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class _05_Soru {
@@ -8,6 +9,7 @@ public class _05_Soru {
         // 2x3 lük bir tabloyu random 10 a kadar sayılarla doldurunuz.
         // Daha sonra kullanıcıdan bir sayı alınız.Bu sayı tabloda
         // var ise yerini (satir,sütun) yazdırınız.
+
 
           int [][] tablo= new int[2][3];
 
@@ -43,13 +45,6 @@ public class _05_Soru {
                   System.out.println("satir ="+satir+ ", sutun ="+sutun);
 
       }
-
-
-
-
-
-
-
 
 
     }

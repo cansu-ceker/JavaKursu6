@@ -39,7 +39,8 @@ public class _02_Period {
         LocalDate dortAySonra = buGun.plus(period4Ay);
         System.out.println("dortAySonra = " + dortAySonra);
 
-        /**************************************************************************************************/
+
+        System.out.println( "**************************************************************************************************");
         // 1.Soru: Kursun bitiş tarihini ve gününü bulunuz 6 ay : 15.05.2023
 
         LocalDate kursBaslangic=LocalDate.of(2023,5,15);
@@ -49,14 +50,18 @@ public class _02_Period {
         System.out.println("kursBitis günü = " + kursBitis.getDayOfWeek());
 
 
-        /**************************************************************************************************/
+
+        System.out.println( "**************************************************************************************************");
         // 2.Soru: Kursun bitmesine ne kadar süre kaldı?  zaman aralığıdır bu yani Periyod alıcaz
 
                                       //küçüğü yanı eskı zamanı önce yazmalısın once bugunu ılerıkı tarıhı sonra
         Period kalanSure=Period.between(buGun,kursBitis);
         System.out.println("kalanSure = " + kalanSure);
 
-        /**************************************************************************************************/
+
+
+
+        System.out.println( "**************************************************************************************************");
         // 3.Soru: Kurs ne kadar süredir devam ediyor? zaman aralığıdır bu yani Periyod alıcaz
 
         Period suAnaKadarkiDevamSuresi=Period.between(kursBaslangic,buGun);

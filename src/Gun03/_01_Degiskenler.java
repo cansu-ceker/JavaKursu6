@@ -20,5 +20,6 @@ public class _01_Degiskenler {
         System.out.println("sayac = " + sayac);  // sayac= 2 yazar ekrana
 
 
+
     }
 }

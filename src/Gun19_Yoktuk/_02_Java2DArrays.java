@@ -16,7 +16,7 @@ public class _02_Java2DArrays {
         for (int i = 0 ; i < tablo2.length; i++)  // satır sayısı
         {
             for (int j = 0 ; j <tablo2[i].length ; j++)
-                System.out.println(tablo2[i][j]+ " ");
+                System.out.print(tablo2[i][j]+ " ");
 
             System.out.println();
         }

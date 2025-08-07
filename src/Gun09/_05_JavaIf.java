@@ -8,6 +8,8 @@ public class _05_JavaIf {
         // Girilen bir öğrencinin notuna göre 50 den büyük-eşit
         // ise geçtiniz, küçük ise kaldınız yazdırınız.
 
+
+
         Scanner oku=new Scanner(System.in);
         System.out.print(" Not = ");
         int not= oku.nextInt();

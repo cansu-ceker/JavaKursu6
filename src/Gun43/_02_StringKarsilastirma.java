@@ -25,20 +25,20 @@ public class _02_StringKarsilastirma {
 
 
         // REFERANS tiplerde ise durum
-        // scanner le okuduğundan aşağıdaki gibi  referans olarka alıyor vereferansalrı karşılaştırır
+        // aşağıdaki gibi scanner le okuduğunda referans tip  olarak alıyor ve referansları karşılaştırır
 
         String cumle3= new String("Bugün hava çok güzel");
         String cumle4= new String("Bugün hava çok güzel");
 
 
 
-        if (cumle3==cumle4)       // = = referans tiplerde referansları aynı mı, bunun manası referansları aynı mı yı sordu , AYNI DEĞİL biri cumle3 biri cumle4
+        if (cumle3==cumle4)       // referans tiplerde = = bu işaretin manası REFERANSLARI AYNI MI yı sordu , AYNI DEĞİL biri cumle3 biri cumle4
             System.out.println("cumle3 ve cumle4 eşit");
         else
             System.out.println("cumle3 ve cumle4 eşit DEĞİL");
 
 
-        if (cumle3.equals(cumle4))   // bunun manası DEĞERLERİ aynı mı , equals HER ZAMAN DEĞERLERİ KARŞILAŞTIRIR
+        if (cumle3.equals(cumle4))   // referans tiplerde .equals manası DEĞERLERİ AYNI MI , equals HER ZAMAN DEĞERLERİ İÇERİGİ  KARŞILAŞTIRIR
             System.out.println("cumle3 ve cumle4 eşit");
         else
             System.out.println("cumle3 ve cumle4 eşit DEĞİL");

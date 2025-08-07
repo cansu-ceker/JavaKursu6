@@ -5,13 +5,27 @@ Access Modifiers (Erişim belirteçleri, izinler)
 
 
 public ------projenin her yerinden erişime açık
-             Class a da, metod a da, field a da yazılabilir
+             Class a da, metod a da, field (ozellıkler hanı) a da yazılabilir
 
 default ----(herhangi bir şey yazılmazsa), sadece kendi paketindekiler erişebilir
-            Class a da, metod a da, field a da yazılabilir
+            Class a da, metod a da, field (ozellıkler hanı) a da yazılabilir
+
+            CAN NOT BE ACCESSED FROM OUTSIDE PACKAGE
+            default class, erişim belirteci yok yani basında bır sey yazılmadıgı durum
+            sadece kendi içinde bulunduğu paketindekin içindeki classlar erişebilir
+
 
 private-----sadece clasın içinden  erişilebilir
             metod a da, field a da yazılabilir
 
-protected --default ile aynı çalışır, (bir erişim izni daha var onu 3 konu göreceğiz)
+            kullanmak iiçin metod yapıyoruz
+
+protected---default ile aynı çalışır, (bir erişim izni daha var onu 3 konu sonra göreceğiz)
             metod a da, field a da yazılabilir
+
+
+          *  Public, Default bunları kimlere yazabluyoruz?
+             classlara, metodlara ve properties lere(fieldlere) yazabılıyroum
+
+          *  Private bunları kimlere yazabluyoruz?
+             metodlara ve properties lere yazabılıyroum, class a yazamıyorum cnku classın ıcıyle alakalı bir şey private

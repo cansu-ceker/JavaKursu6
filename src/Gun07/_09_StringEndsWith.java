@@ -10,13 +10,16 @@ public class _09_StringEndsWith {
         String text=" Merhaba DÜnya";
 
         boolean bitiyorMu=text.endsWith("z");
-        System.out.print("z ile bitiyor mu = " + bitiyorMu);
+        System.out.println("z ile bitiyor mu = " + bitiyorMu); //false
 
 
-        System.out.print(" ya ile bitiyor mu= " +text.endsWith("ya") );
-        System.out.print("n ile bitiyor mu = " + text.endsWith("n"));
-        System.out.print("A ile bitiyor mu = " + text.endsWith("A"));
-        System.out.print("Dünya ile bitiyor mu = " + text.endsWith("Dünya"));
+        System.out.println(" ya ile bitiyor mu= " +text.endsWith("ya") ); //true
+        System.out.println(" nya ile bitiyor mu= " +text.endsWith("nya") ); //true
+        System.out.println(" a ile bitiyor mu= " +text.endsWith("a") ); //true
+        System.out.println("n ile bitiyor mu = " + text.endsWith("n")); //false
+        System.out.println("A ile bitiyor mu = " + text.endsWith("A")); //false
+        System.out.println("ba ile bitiyor mu = " + text.endsWith("ba")); //false
+        System.out.println("Dünya ile bitiyor mu = " + text.endsWith("Dünya")); //false
 
 
 

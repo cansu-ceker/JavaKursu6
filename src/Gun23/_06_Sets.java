@@ -31,7 +31,7 @@ public class _06_Sets {
         // farkı
         HashSet<Integer>fark=new HashSet<>();
         fark.addAll(setA);  // boş olan fark setine setA yı ekledik
-        fark.removeAll(setB);  // içinde setA olan setten yani fark setinden, setB yi çıkardık
+        fark.removeAll(setB);  // içinde setA olan setten yani fark setinden, setB yi çıkardık A-B yaptık yanı a dan b nın ıcındekılerı cıkardı
         System.out.println("fark = " + fark);
 
         //kesişim, ortak elemanlar

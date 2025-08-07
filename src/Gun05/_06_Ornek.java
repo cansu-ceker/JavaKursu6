@@ -9,8 +9,7 @@ public class _06_Ornek {
 //bir karenin kenarını(tamsayı)kullanıcıdan isteyip çevresin ve alanını yazdır
 // cevre=a+a+a+a    alan=a*a
 
-
-        Scanner oku= new Scanner(System.in);
+  Scanner oku= new Scanner(System.in);
 
         System.out.println(" Kenar uzunluk girin= ");
         int a= oku.nextInt();

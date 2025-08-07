@@ -7,6 +7,7 @@ public class _02_JavaIf {
         // Girilen bir sayının negatif mi , pozitif mi olduğunu yazdırınız.
         // Sıfır ise sıfır yazdırınız.
 
+
         Scanner oku=new Scanner(System.in);
         System.out.print(" Sayı = ");
         int sayi= oku.nextInt();

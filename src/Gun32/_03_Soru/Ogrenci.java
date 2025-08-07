@@ -45,10 +45,10 @@ public class Ogrenci {
     @Override // bunu kendı cıkartıyor onemlı degıl yazmasanz olur dedı
     public String toString() {
         return "Ogrenci{" +
-                "okulNo='" +okulNo + '\'' +
-                "ad='" + ad + '\'' +
-                ", soyad='" + soyad + '\'' +
-                ", yas=" + yas +
+                "okulNo='" +this.okulNo + '\'' +
+                "ad='" +this.ad + '\'' +
+                ", soyad='" + this.soyad + '\'' +
+                ", yas=" + this.yas +
                 '}';
     }
 

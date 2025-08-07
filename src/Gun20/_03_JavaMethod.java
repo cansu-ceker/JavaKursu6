@@ -18,13 +18,16 @@ public class _03_JavaMethod {
         System.out.print("2.sayı =");
         int s2= oku.nextInt();
 
+
+
         int buyuk=enBul(s1,s2);
-        buyuk= MyFunc.enBul(s1,s2); //  Tools diye klasör açtım içine MyFunc class actım orası benım kutuphanem oldu oradan cagırabılırım bu sekılde kodları
+        buyuk= MyFunc.enBul(s1,s2); //  src altına Tools diye klasör açtım içine MyFunc class actım orası benım kutuphanem oldu oradan cagırabılırım bu sekılde kodları
                                     // cagırınca asagaıda kodunu yazmama gerek kalmadı
                                     // nasılsa benm kutuphanemde kayıtlı var o oradan alıp calısıyor
         System.out.println("buyuk = " + buyuk);
     }
 
+                          //metodun ımzası denır bu kısma
     public static int enBul(int s1,int s2)
     {
          int buyuk=0;

@@ -13,6 +13,7 @@ public class _01_StringConcat {
         // ya da aşağıdaki gibi
 
         System.out.println("Birleşik hali2 = "+s1.concat(s2));
+                                           //s1 e bırlestır s2 yı
 
         // aşağıdaki seçenekler ise arada boşluk istersek diye :
 

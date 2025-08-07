@@ -8,6 +8,7 @@ public class _07_forLoop {
         // kullanıcının gireceği bir rakama(dahil) kadar
         // olan sayıların toplamını bulunuz.
 
+
         Scanner oku=new Scanner(System.in);
         System.out.println("Rakam gir = ");
         int rakam= oku.nextInt();

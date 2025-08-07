@@ -5,5 +5,8 @@ public class A6Main {
 
       A6 nesne=new A6();
       nesne.yazdir();
+
+
+
     }
 }

@@ -9,9 +9,11 @@ public class _05_StringIsEmpty {
 
         String s1= "Merhaba";
         String s2= " ";
+        String s3= "";
 
-       System.out.println("s1 boş mu = " + s1.isEmpty());
-       System.out.println("s2 boş mu2 = " + s2.isEmpty());
+       System.out.println("s1 boş mu = " + s1.isEmpty()); //false
+       System.out.println("s2 boş mu = " + s2.isEmpty()); //false - cnku bosluk var yanı dolu, bos degıl
+       System.out.println("s3 boş mu = " + s3.isEmpty()); //true, bos yanı
 
 
 

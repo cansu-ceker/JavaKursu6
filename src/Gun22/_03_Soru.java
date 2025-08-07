@@ -33,7 +33,8 @@ public class _03_Soru {
         // her bir satıra yazdırınız
         // Matematik : 50 70 80
         // Fizik : 30 40
-        // Kimya : 60 70 80 90
+        // Kimya : 60 70 80 90 gbi yazdır
+
 
         ArrayList<String >dersAdlari= new ArrayList<>();
         dersAdlari.add("Matematik");
@@ -43,6 +44,8 @@ public class _03_Soru {
         System.out.println(dersAdlari.get(0)+ ":"+notlarListesi.get(0));;
         System.out.println(dersAdlari.get(1)+ ":"+notlarListesi.get(0));;
         System.out.println(dersAdlari.get(2)+ ":"+notlarListesi.get(0));;
+
+        System.out.println("*****************************************");
 
         for (int i = 0 ; i <dersAdlari.size() ; i++)
         {
@@ -55,7 +58,7 @@ public class _03_Soru {
             System.out.println();  // her derste sonra alt satıra gecsın dıye bunu koyduk
         }
 
-
+        System.out.println("*****************************************");
 // Soru 2 :
         // Kullanıcıdan istediği bir dersin  nosunu alarak (0-Mat, 1-Fiz, 2-Kim)
         // sadece istediği derse ait notları bir metodda yazdırınız.
@@ -69,11 +72,10 @@ public class _03_Soru {
          dersNotlariniYazdir (dersNo,notlarListesi);
 
 
-         //TODO
-        // Soru 3 :
-        // Yukarıda verilen derse ait not ortalamasını ve geçen sayısını bir metodda yazdırınız.
 
     }
+
+
 
                                          //int        ArrayList... yazdık cunku onun tipini belirtmemiz lazım, nasıl dersno ya int dedik notlistesı de tablonun tablosu
     public static void dersNotlariniYazdir (int dersNo,ArrayList<ArrayList<Integer>> notlarListesi)          // void cunku gerı bır sey istemiyor
@@ -83,14 +85,7 @@ public class _03_Soru {
             System.out.println(notlarListesi.get(dersNo).get(i)+"\t");
         }
 
-
-
     }
-
-
-
-
-
 
 
 }

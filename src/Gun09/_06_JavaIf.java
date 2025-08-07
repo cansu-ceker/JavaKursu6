@@ -8,7 +8,6 @@ public class _06_JavaIf {
          // Girilen bir cümlede a harfinin geçip geçmediğini
         // bulunuz geçiyor ise EVET, geçmiyor ise HAYIR yazdırınız
 
-
         Scanner oku=new Scanner(System.in);
         System.out.print(" Cümle girin = ");
         String cumle= oku.nextLine();

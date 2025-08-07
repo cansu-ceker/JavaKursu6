@@ -13,12 +13,12 @@ public class _02_Java2DArrays {
 
 
         int [][] tablo3={
-                {2,3,44},   // 1. satur 3 elemanlı
-                {45,66,5}   // 2. satur 3 elemanllı
+                {2,3,44},   // 1. satır 3 elemanlı
+                {45,66,5}   // 2. satı  r 3 elemanllı
         };
 
 
-         for (int satir=0 ; satir<2 ; satir++) //satır 1 ve 2 var
+         for (int satir=0 ; satir<2 ; satir++) //2 satır var,0 ve 1
          {
              System.out.println(tablo2[satir][0]);  // herbir satırın 0. elemanı
              System.out.println(tablo2[satir][1]);  // herbir satırın 1. elemanı
@@ -31,8 +31,10 @@ public class _02_Java2DArrays {
 
         for (int satir=0 ; satir<2 ; satir++) //satır 1 ve 2 var
         {
-            for (int sutun=0 ; sutun<3 ; sutun++)    //her bır satırın dutunlarını yazdıran for
-            System.out.print(tablo2[satir][sutun] + " ");
+            for (int sutun=0 ; sutun<3 ; sutun++) {
+
+                System.out.print(tablo2[satir][sutun] + " ");    //her bır satırın sutunlarını yazdıran for
+            }
 
            System.out.println(); //2,3,4 u yazdıktan sonra alt satıra gecıp 45,66,5 yazsın dıye yazdık bu komutu
 

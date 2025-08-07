@@ -2,7 +2,7 @@ package Gun32._01_Encapsulation;
 
 public class Kisi {
 
- private  String ad; //25 karakter sınır
+ private  String ad; //25 karakter sınırı vardır genelde ad soyuad ıcın dedı hoca
  private String soyad; //25
  private int yas;
 
@@ -36,6 +36,10 @@ public int yasVer ()
     return this.yas;
 }
 
+    public String getAd ()
+    {
+        return this.ad;
+    }
 
 public String getSoyad ()   // atadıgın soyadı gerı ver
 
@@ -44,10 +48,7 @@ public String getSoyad ()   // atadıgın soyadı gerı ver
 }
 
 
-public String getAd ()
-{
-    return this.ad;
-}
+
 
 
 

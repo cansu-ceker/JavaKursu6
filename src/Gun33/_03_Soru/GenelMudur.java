@@ -22,16 +22,8 @@ public class GenelMudur extends Calisan {   // genel mudur calısanın her seyı
 
     @Override
     public String toString() {
-        return super.toString();
+        return super.toString() + "\nTazminat=" + this.tazminat;
     }
-
-
-
-
-
-
-
-
 
 
 

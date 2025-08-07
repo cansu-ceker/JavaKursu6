@@ -10,6 +10,9 @@ public class _07_Ornek3 {
         String not2 = "95";
         String not3 = "56";
 
+
+
+
         int rakamNot1 = Integer.parseInt(not1);
         int rakamNot2 = Integer.parseInt(not2);
         int rakamNot3 = Integer.parseInt(not3);

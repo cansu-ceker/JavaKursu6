@@ -4,12 +4,13 @@ public class _03_JavaDataTypes {
     public static void main(String[] args) {
 
         int sayi;  //hafızada int kadar yer kaplar, sadece tamsayı atılabilir.
-                   // tam sayılarda default int , int i sayı kabul edıyor java
+                   // tam sayılarda default int tir , int i sayı kabul edıyor java
+                   // herhangi bir yerde sayı gorurse java onu int kabul eder yani tamsayılarda default int tir
 
 
         //tamsayilar
-        byte byteDeger=7;   //-128 - 127
-        short shortDeger=1645;   // -32000 - 32000
+        byte byteDeger=7;      //-128 den +127 ye
+        short shortDeger=1645; // -32000 den  +32000 ye
         int intDeger=250000;
         long longDeger=45669789343879863L;   // eşitliğin iki tarafı da aynı olmalı
                                              // sol taraf long, sağ taraf da long olcak o sebeple L koyduk
@@ -18,15 +19,15 @@ public class _03_JavaDataTypes {
 
         //ondalıklı sayıların default u double
         //ondalıklı sayı görünce double sayıyor java
-        double doubleDeger=3.157484863546894945364;  //noktadan sonra 16 haneye kadar hassasiyeti var
-        float floatDeger=3.54587487F; // F koymasaydık bilgisayr onu ondalıklı diye double sanardı
+        double doubleDeger=3.157484863546894945364;  //noktadan sonra 16 haneye kadar hassasiyeti var, 16 haneye kadar saklar hafızada
+        float floatDeger=3.54587487F; // F koymasaydık bilgisayr onu ondalıklı diye algılar ve bu sebeple defaultu olarak double sanardı
                                      // noktadan sonra 5 haneye kadar hassasiyeti var ama kararsız
 
 
 
         //karakter ve Harfler
         char basHarf='A';   //bir tane harf saklayabilir, harfte tek tırnak
-        String isim="cansu";  //kelime veya cümle saklayabilir, uzunluğu değişken
+        String isim="cansu";  //kelime veya cümle saklayabilir, uzunluğu değişken, ne kadar uzun olursa o kadar yer kapsar hafuzada
 
 
         System.out.println("byteDeger = " + byteDeger);
@@ -46,7 +47,7 @@ public class _03_JavaDataTypes {
     intDeger=250000
     longDeger=45669789343879863L
     doubleDeger=3.157484863546894945364
-    floatDeger=3.54587487F
+    floatDeger=3.54587487
     basHarf='A'
     isim="cansu"
     boolean durum=false

@@ -17,6 +17,7 @@ public class _03_forLoop {
         //    2 x 9 = 18
         //    2 x 10 = 20
 
+
         for (int i=1 ; i<=10 ; i++)
          System.out.println("2x"+i+" = " + (2*i));
 

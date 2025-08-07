@@ -4,7 +4,7 @@ public class _04_JavaDataTypesMinMax {
     public static void main(String[] args) {
 
         //değişken tiplerinin
-        // sınırları sistemden  öğrenmek istersek bu şekilde yazıp run
+        // sınırları sistemden  öğrenmek istersek bu şekilde yazıp run et
 
 
         System.out.println("byteMinDegeri = " + Byte.MIN_VALUE);

@@ -11,7 +11,7 @@ public class _02_JavaMethod {
 
         merhabaYaz();  // giden var, dönen yok
        toplamYaz(4,5);  // gider var, dönen yok
-        int enb=Math.max(4,5); // giden avr,dönen var. eşitlenebiliyorsa dönen var demektir
+        int enb=Math.max(4,5); // giden var,dönen var. eşitlenebiliyorsa ...= ... yapılıyorsa dönen var demektir
         double rndSayi=Math.random();  // giden yok,dönen var, eşitleyebiliyorsak dönen var diyoruz
 
 

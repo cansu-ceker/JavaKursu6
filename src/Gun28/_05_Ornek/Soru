@@ -1,7 +1,7 @@
 
 1.Adım  :Musteri isimli (fields: name) isimli bir class tanımlayınız.
 2.Adım  :ElektrikHesabi isimli (fields : toplamTuketim(int), birimFiyat(double) class tanımlayınız
-3.Adım  :Musteri a bir ElektrikHesabi ekleyiniz.
+3.Adım  :Musteri class a bir ElektrikHesabi ekleyiniz.
 4.Adım  :1 tane müşteri oluşturunuz,
 5.Adım  :Musteriye ait her ay tüketilen enerjiyi toplayacak bir metod yazınız.
         tuketimEkle olsun adı ve her verilen aylık rakamı toplayarak biriktirsin.

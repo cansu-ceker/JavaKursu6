@@ -50,9 +50,9 @@ public class _04_JavaMap {
 
         for(Map.Entry<String, Map<String,String> > kv : kartvizitler.entrySet()) // entrySet() keys+values
         {
-            System.out.println("kv = " + kv);
+            System.out.println("kv = " + kv);  // bu tum hepsını yazdırır ve fotograf gbı verır cıktıyı
 
-           System.out.println(kv.getValue());
+           System.out.println(kv.getValue());    // getvalue denıldıgı ıcın sagdakılerı yanı value lerı verecek bu da
 
             System.out.println(kv.getValue().get("email"));
             //                                kv.getValue() -- bu bir bütün,HashMap o yuzden boelemyoz

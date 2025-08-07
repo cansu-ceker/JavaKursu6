@@ -14,7 +14,7 @@ public class Ozet {
         byte -> short -> int -> long-> float->double
 
         byte ogrNot=90;
-        int ogrNot2=ogrNot;  wideninning Casting
+        int ogrNot2=ogrNot;  widening Casting
 
         int ogrNot=50;
         byte ogrNot2=(byte)ogrNot; Narrowing casting

@@ -11,7 +11,12 @@ public class GeometriMain {
 
 
 
-        // Interface lerden nesne üretilemez fakat referans tipi oluşturulabilir
+        // Interface lerden nesne üretilemez
+        // ICizdirir c2=new ICizdirir(); bu olmaz cnku Interfaceden nesne turetulebılır mı?
+                                                       // HAYIR- Interfacelerin ıcerısınde bır sey yok kı bos sadece sablon var metodların ısımlerı var sadece fıeld yok const yok vs.
+
+
+        // fakat referans tipi oluşturulabilir
         // bu bize polymorphism sağladı
         ICizdirir c2=new Cember();
         c2.ciz();   // çember çizdi
@@ -22,10 +27,13 @@ public class GeometriMain {
 
     }
 
-    public static void cizzdir(ICizdirir g)
-    {
-        g.ciz();
-    }
+
+     // ortak metoda boyle de erısıyorum:
+    //                               adını ben verdım    ortak metodun cındı ne : ICizdirir
+                            public static void cizzdir ( ICizdirir   g  )
+                                 {
+                                            g.ciz();
+                                 }
 
 
 }

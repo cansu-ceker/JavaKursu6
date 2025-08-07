@@ -18,10 +18,11 @@ public class _05_Soru {
 
 //--- TreeMap,while,if
 
+
         Scanner okuInt=new Scanner(System.in);
         Scanner okuStr=new Scanner(System.in);
 
-        // kelime, anlamı
+          // kelime, anlamı
         Map<String, String> sozluk = new TreeMap<>();
 
         int secim=0;
@@ -77,34 +78,7 @@ public class _05_Soru {
 
 }
 
-
         } while (secim<6);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

@@ -8,12 +8,12 @@ public class IlkOgrencisi extends Ogrenci {
     public IlkOgrencisi(String isim, String klup) {   // mainde  parantez ıcıne cayse ve klup yazdık bak dırekt cnk tıpını zaten burdan alcak net ve bellı oldugu ıcın bı daha tıpını o parantezde yazmıyoruz
         super(isim, Tipi.ILK,ilkSayacID++);   // KENDI ICINDE SAYAC ARTSIN DIYE BOYLE YAPTIK
 
-        setKlup(klup);    //SEt yaıyoruz kapsulluyorz
+        setKlup(klup);    //SEt yapıyoruz kapsulluyorz
     }
 
     @Override
     public String toString() {
-        return super.toString()+"klup:"+ this.klup;
+        return super.toString()+", klup="+ this.klup;
     }
 
     public String getKlup() {

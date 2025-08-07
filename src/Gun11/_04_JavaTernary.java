@@ -8,6 +8,7 @@ public class _04_JavaTernary {
         //Girilen sayı 50 de büyük ise 1, değilse 0 değerini
         // ekrana yazdırın. Ternary operatörü ile yapınız.
 
+
         Scanner oku=new Scanner(System.in);
         System.out.print("sayi=");
         int sayi= oku.nextInt();

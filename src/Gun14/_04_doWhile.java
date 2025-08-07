@@ -17,22 +17,11 @@ public class _04_doWhile {
             kelime= oku.nextLine();
 
             if (!kelime.equalsIgnoreCase("x"))
-            System.out.println("Program çalışıyor");
-
+             System.out.println("Program çalışıyor");
         }
         while (!kelime.equalsIgnoreCase("x"));
 
-        System.out.println(" bitti");
-
-
-
-
-
-
-
-
-
-
+        System.out.println(" program bitti");
 
     }
 }

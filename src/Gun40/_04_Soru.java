@@ -9,7 +9,7 @@ public class _04_Soru {
     public static void main(String[] args) throws InterruptedException {
 
         // canlı dijital saat yapınız
-        // 21:32:45 --> 21:32:46  --> 21:32:47...  21:33:00 --> ... devam
+        // 21:32:45 --> 21:32:46  --> 21:32:47...     21:33:00 --> ... devam
 
         DateTimeFormatter f=DateTimeFormatter.ofPattern("kk:mm:ss");
 
@@ -19,7 +19,7 @@ public class _04_Soru {
             LocalTime saat= LocalTime.now();
             System.out.print("\r " + saat.format(f));   // \r silip üstüne yazıyor bir siliyor bır yazıyor, sil yaz , sil yaz
             // 1 sn bekletme
-            Thread.sleep(1000);
+            Thread.sleep(1000);  // milisaniye kabul ettıgı ıcın 1000 yazdık cnku 1000 ms= 1 sn
         }
 
 

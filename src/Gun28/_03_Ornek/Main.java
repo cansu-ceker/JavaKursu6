@@ -4,18 +4,21 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Book kitap1=new Book();
-        kitap1.name="GK YOLU";
-        kitap1.publishYear=2023;
-        kitap1.author="Faruk Çeker";
-        System.out.println("1. kitap="+kitap1);
+        Book kitap1= new Book();
+        kitap1.name="cansu";
+        kitap1.publishYear=1991;
+        kitap1.author="seray";
+
+        Book kitap2= new Book("sırrı can", 1997, "seray");
+
+        Book kitap3= new Book("ceker", 2022);
 
 
-        Book kitap2=new Book("GreenCard Yolu",2023,"Cansu Çeker");
-        Book kitap3=new Book("GreenCard Way",1991);
 
-        System.out.println("kitap2 = " + kitap2);
-        System.out.println("kitap3 = " + kitap3);
+// System.out.println(kitap1.toString());  asagıdakıyle aynı,toString()  yazsan da yazmasan da java o metodu bulup calıstıryorcnku metodu olustururken toString() yazdık ozel bır metod o
+        System.out.println(kitap1);
+        System.out.println(kitap2);
+        System.out.println(kitap3);
 
 
 

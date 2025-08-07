@@ -14,8 +14,8 @@ public class _03_WideningCasting {
         double oran=3.2;
 
 
-        // sayı , orana atılıyor yanı sol taraf sag tarafa atılıyor
-         oran=sayi;  //tamsayı olan int, daha geniş ondalıklı double a hafızaya atılır
+        // sayı , orana atılıyor yanı sag taraf sol tarafa atılıyor
+         oran=sayi;  //sayı olan int, daha geniş ondalıklı double a hafızaya atılır
         System.out.println("oran = " + oran);  //veri kaybı yok
                                                //double a attık diye 9.0 yazdı
 

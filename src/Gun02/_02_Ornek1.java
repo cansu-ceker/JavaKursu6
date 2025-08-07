@@ -15,5 +15,8 @@ public class _02_Ornek1 {
         System.out.println("Merhaba Dünya5");
            // kısacası ln varsa o satırdakini yazıp aşağı iniyor, bak merhaba dünya1i yazdı aşağı atladı, ln olmadığında yanyana yazıyor
         // ln line new demek
+
+
+
     }
 }

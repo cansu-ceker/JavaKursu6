@@ -9,6 +9,7 @@ public class _04_IfElseIf {
         // harflerini yine kullanıcıdan alarak isteğe uygun olan
         // işlemi yaptırıp sonucu yazdırınız.
 
+
         Scanner oku=new Scanner(System.in);
         Scanner okuStr=new Scanner(System.in);
 

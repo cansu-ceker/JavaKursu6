@@ -11,7 +11,7 @@ fori (sıra garanti, çünkü indexe göre gidiyor)
 foreach (sıra garanti değil)
 
 
-SETlerde
+SET lerde
 index yok
 fori yok
 foreach (sıra garanti değil)

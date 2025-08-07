@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class _07_JavaMethod {
     public static void main(String[] args) {
 
-        // mainde 20 elemanlı bir diziyi tanımlayınız, daha sonra bir fonksiyona
+        // mainde 20 elemanlı bir diziyi tanımlayınız, daha sonra bir metoda,fonksiyona
         // göndererek random 100 e kadar olan sayılarla dodurunuz. ve aynı fonksiyonda
         // yazdırınız.
 
@@ -22,7 +22,7 @@ public class _07_JavaMethod {
             dizi[i]=(int)(Math.random()*100);
         }
 
-        System.out.println(Arrays.toString(dizi));
+        System.out.println(Arrays.toString(dizi)); // 1 boyutlu dızıyı yazdırma yontemıydı
 
 
     }

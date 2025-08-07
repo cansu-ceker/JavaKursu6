@@ -10,4 +10,4 @@ public class A6 implements IYazdirabilir {
 }
 
 
-//Interface ı implement ettim ve içini doldurdum burada
+      //Interface ı implement ettim ve içini doldurdum burada

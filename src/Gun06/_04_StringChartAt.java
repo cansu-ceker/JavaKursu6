@@ -18,10 +18,13 @@ public class _04_StringChartAt {
         char aradaki =cumle.charAt(5);   // 6.karakterdekini gösterdi
         System.out.println("ARADA SORDUĞUM = " + aradaki);
 
+        char aradakiiiiiiiiiiiiiii =cumle.charAt(11);
+        System.out.println(aradakiiiiiiiiiiiiiii);
+
            /* char bir harf
            String harf, kelime, cümle
 
-          1- char harf='a';    bu kod 1 odalık yer ayırıyor bilgisayar --> a
+          1- char harf='a';   bu kod 1 odalık yer ayırıyor bilgisayar --> a
           2- String harf="a"; bu kod 1 oda + bitiş işareti kadar yer ayırır -->  a\n
                               String arada boşluk da saklıyor cümle gibi algılayıp
 

@@ -10,7 +10,7 @@ public class S56_2 {
 
             // 3 kez
             try {
-                pwd[idx] = n.substring(2, 6);  // omas,seph // 2 dahil, 5 dahil demek doğru mu
+                pwd[idx] = n.substring(2, 6);  // omas,seph // 2 dahil, 5 dahil, 6 hariç demek
                 System.out.println(pwd[idx]);  // omas,seph yazıldı
                 idx++;
             } catch (Exception e) {
@@ -22,4 +22,9 @@ public class S56_2 {
         for(String s: pwd)
             System.out.println("s = " + s);
     }
+
+
+
+
+
 }

@@ -6,8 +6,8 @@ public class _05_EscapeCharacters {
         //     \n  -> yeni satır aç, alt satıra geçer
         //     \t  -> tab tuşuna bas, 2,3 harflik boşluk oluşturur
         //     \b  -> backspace, 1 karakter geri siler
-        //     \"  -> tırnağı ekrana yazdırmak için kullanılır
-        //     \\  ->ekrana bir tane \yazar
+        //     \"  -> tırnağı ekrana yazdırmak için kullanılır koyuldugu yer bır tane " yazar
+        //     \\  -> ekrana bir tane \yazar
         //     \r  -> satır başına git demek, \r bence konulduğu yerden sonrasını yazdırıyor
         //     \
         //     \
@@ -20,7 +20,9 @@ public class _05_EscapeCharacters {
         System.out.println("Merhaba\b\bDünya2");  //MerhaDünya
         System.out.println("Merhaba\"Dünya");    //Merhaba"Dünya
         System.out.println("Merhaba\\Dünya");    //Merhaba\Dünya
-        System.out.println("Merhaba\rDünya");    //Dünya   kendinden sonrakini yazdırır
+        System.out.println("Merhaba\rDünya");    //Dünya
+                                  // \r reverse -> konuldugu yerden geri geri silerek gidip satır basına geliyor, konuldugu yerden sonrasını yazıyor
+                                  // kendinden sonrakini yazdırır, saatler ıcın dusun 8:14 -> 8:1 yapıp 4 u sılcek ve 5 yazacak mesela 8:15 olacak
 
 
 

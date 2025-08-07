@@ -25,7 +25,7 @@ public class _01_ArrayList {
         Collections.sort(sayilar);
         System.out.println("sayilar2 = " + sayilar);
 
-        // tersine çevirme işlemi
+        // tersine çevirme işlemi -sayıları sondan basa sıralar
         Collections.reverse(sayilar);
         System.out.println("sayilar3 = " + sayilar);
 
@@ -46,9 +46,9 @@ public class _01_ArrayList {
         System.out.println("strList = " + strList);
 
 
-        //AddAll : bir liste, bir veya daha fazla değer ekler
+        //AddAll :  bir veya daha fazla değerleri ekler
         Collections.addAll(sayilar,56,77,88,99,77);
-        System.out.println("sayilar6 = " + sayilar);
+        System.out.println("sayilar6 = " + sayilar); // sayılar en son  5 5 5 5 5 dı bununla bırlıkte sonuna ekler yanı 5 5 5 5 5 56 77 88 99 77 oldu sayılar
 
         //bir diziyi, bir ArrayList e atmak
        Integer[] dizi2={2,3,45,56};

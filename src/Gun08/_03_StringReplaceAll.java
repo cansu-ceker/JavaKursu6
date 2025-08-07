@@ -3,7 +3,7 @@ package Gun08;
 public class _03_StringReplaceAll {
     public static void main(String[] args) {
 
-        // replaceAll : replace gibi çalışır farkı Kriter (regex) verilebiliyor
+        // replaceAll : replace gibi çalışır farkı şu->  Kriter (regex) verilebiliyor
         // regex : regular
 
 
@@ -15,7 +15,7 @@ public class _03_StringReplaceAll {
 
 
         System.out.println("A-Z  -> _ = " + text.replaceAll("[A-Z]","_"));  //  _erhaba1 _ünya234
-                       // A Zye kadar BÜYÜK harfleri _ yap
+                       // A Zye kadar Z dahil, BÜYÜK harfleri _ yap
 
         System.out.println("harfleri sil -> = " + text.replaceAll("[A-Z]","").replaceAll("[a-z]",""));  //1 234
                        // yani  üstüste replaceAll kullanılabilir
@@ -24,15 +24,17 @@ public class _03_StringReplaceAll {
 
 
         System.out.println("0-9 arasını sil = " + text.replaceAll("[0-9]",""));  //Merhaba Dünya
-                       // 0-9 arasını sayıları sil, geriye harfler kaldı sonucta
+                       // 0-9 arasını, 9 dahil ] ısaret dahıldır ya zaten, sayıları sil, geriye harfler kaldı sonucta
 
 
 
         System.out.println("0-9 dışındakileri sil = " + text.replaceAll("[^0-9]",""));  //1234
-                      // 0-9 un dışındakileri ^ sil  , sadece rakamlar kaldı,
-        // NEDEN 1 234 , cunku boslugu da sildi, 0-9 un dısında kalan seyler arasında her seyı sılıyor boslugu da sıldı
+                      // 0-9 un dışındakileri ^ sil  , rakamların dısındakalanları sil,  sadece rakamlar kaldı,
+        // NEDEN 1 234 degıl de 1234 yazdı , rakam harıcı her seyı sıl dedık, bolsuk rakam degıl dolayısıyla boslukları da sıldı
 
-        //$500  -> 500 -> parseInt
+
+        // nerede ısımıze yarar?
+        //$500  -> 500 -> parseInt -- strıng ınt e cevırecegımzde bunun gbı orneklerde
 
 
 

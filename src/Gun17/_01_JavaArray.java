@@ -1,5 +1,6 @@
 package Gun17;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class _01_JavaArray {
@@ -7,13 +8,10 @@ public class _01_JavaArray {
 
 
         // 50 elemanlı bir dizi tanımlayınız, 10 a kadar olan sayılardan
-        // Random atayarak doldurunuz. Sonrasında ayrı bir döngü ile tek olanlar 1,
-        // çift olanlara 0 atayınız  yazdırınız.
-
-
+        // Random atayarak doldurunuz. Sonrasında ayrı bir döngü ile
+        // tek olanlar 1, çift olanlara 0 atayınız  yazdırınız.
 
         int []dizi= new int[50];
-
 
         for (int i = 0 ; i<dizi.length ; i++)
             dizi[i]= (int) (Math.random()*10); // dizinin içini 10 a kadar random sayılar atayarak doldururum komutu bu
@@ -27,7 +25,6 @@ public class _01_JavaArray {
             dizi[i]=0;
              else
                  dizi[i]=1;
-
         }
 
 

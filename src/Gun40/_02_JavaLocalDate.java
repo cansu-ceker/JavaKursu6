@@ -10,16 +10,16 @@ public class _02_JavaLocalDate {
 
         //LocalDate sadece gun ay yıl bilgisini tutar
 
-        LocalDate tarih =LocalDate.now();  // şu andaki tarihi verir
+        LocalDate tarih =LocalDate.now();  // şu andaki tarihi verir--------------- Local den tarihi aldım
 
-        DateTimeFormatter ozel6= DateTimeFormatter.ofPattern("MMMM dd EEEE yyyy");
-        System.out.println("tarih.format(ozel6) = " + tarih.format(ozel6)); // Temmuz 19 Çarşamba 2023
+        DateTimeFormatter ozel6= DateTimeFormatter.ofPattern("MMMM dd EEEE yyyy");   //--------------------------- istedigim formatı kendım yazdım,olusturdum
+        System.out.println("tarih.format(ozel6) = " + tarih.format(ozel6)); // Temmuz 19 Çarşamba 2023------------  aldıgım bugunun tarıhını, yazdıgım olusturdugum formatta ekrana yazdır
 
         System.out.println("**************************** başka dilde formatta gösterimi ******************************");
 
-        // local den aldığım tarihi başka dilde formatta gösterimi
+        // local den aldığım tarihi, oluşturdugum formatta fakat BASKA DİLDE gösterimi
         System.out.println("tarih.format(ozel6) = " + tarih.format(ozel6.withLocale(Locale.GERMANY)));   // Juli 19 Mittwoch 2023
-                                                     // lokalde aldıgım saati almanya tipinde gösterir
+                                                     // lokalde aldıgım tarihi almanya tipinde gösterir
 
 
 
@@ -41,7 +41,8 @@ public class _02_JavaLocalDate {
         Locale [] kullanilabilirLokaller=Locale.getAvailableLocales();
         for ( Locale l : kullanilabilirLokaller)
         {
-            if (!l.getDisplayLanguage().toLowerCase().contains("ind")) continue;   // hepsını kucuge cevır, ıcınde ind olmayanları pas gec
+            if (!l.getDisplayLanguage().toLowerCase().contains("ind")) continue;   // hepsını kucuge cevır, içinde ind olanların, haricindeki tum  hepsini pas gec
+                                                                                   //                                             bastakı !
 
             System.out.print("Dili=" + l.getDisplayLanguage());
             System.out.print(",Ülkesi=" + l.getDisplayCountry());

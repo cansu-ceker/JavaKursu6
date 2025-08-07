@@ -10,6 +10,7 @@ public class _01_Java2DAarrays {
         // doldurduktan sonra sadece tek elemenlarını tek boyutlu bir
         // diziye atayınız.
 
+
         int [][] tablo=new int[3][2];
         int tekMik=0;
 

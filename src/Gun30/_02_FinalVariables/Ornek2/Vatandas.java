@@ -9,7 +9,7 @@ public class Vatandas {
 
     private static int TcNoSayac=1;
 
-    private static int sayac=1;
+
 
     public Vatandas(String isim , String adres) {
         this.isim = isim;

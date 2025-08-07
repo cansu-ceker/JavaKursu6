@@ -10,6 +10,7 @@ public class _01_JavaMethod {
         // dizinin en küçük, en büyük elemanını ve
         // ortalamasını ayrı fonksiyonlarda bulup yazdırınız
 
+
         Scanner oku = new Scanner(System.in);
         int dizi[] = new int[5];   //  int [] dizi=new int[5]; ile aynı şey
 
@@ -56,4 +57,5 @@ public class _01_JavaMethod {
 
 
     }
+
 }

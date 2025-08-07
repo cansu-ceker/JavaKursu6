@@ -7,6 +7,8 @@ public class _08_WhileLoop {
 
         //kullanıcının gireceği 6 sayıdan tek olanların toplamını yazdırın
 
+
+
         Scanner oku=new Scanner(System.in);
 
         int toplam=0;
@@ -14,20 +16,20 @@ public class _08_WhileLoop {
 
         while (sayac<=6)
         {
+            System.out.print(sayac+". sayıyı giriniz=");
+            int sayi= oku.nextInt();
 
+            if (sayi%2==1)
+                toplam=toplam+sayi;
+
+            sayac++;
         }
         System.out.println("TEKLER TOPLAMI="+toplam);
 
 
 
 
-        System.out.print(sayac+". sayıyı giriniz=");
-        int sayi= oku.nextInt();
 
-        if (sayi%2==1)
-            toplam=toplam+sayi;
-
-        sayac++;
 
 
 

@@ -1,33 +1,24 @@
 package Gun28._02_Ornek;
 
-import Gun28._01_Ornek.Ogrenci;
-
 public class Main {
     public static void main(String[] args) {
 
 
+       Book kitap1= new Book();
+       kitap1.name="cansu";
+       kitap1.publishYear=1991;
+       kitap1.author="seray";
 
-        Book book1=new Book();
-        book1.name="GK YOLU";
-        book1.publishYear=2023;
-        book1.author="Faruk Çeker";
-        System.out.println("1. kitap="+book1);
+       Book kitap2= new Book("sırrı can", 1997, "seray");
 
-
-        Book book2=new Book("GreenCard Yolu",2023,"Cansu Çeker");
-        Book book3=new Book("GreenCard Way",1991);
-
-
-        System.out.println("2.kitap özellikleri = " + book2);
-        System.out.println("3. kitap = " + book3);
+       Book kitap3= new Book("ceker", 2022);
 
 
 
-
-
-
-
-
+// System.out.println(kitap1.toString());  asagıdakıyle aynı,toString()  yazsan da yazmasan da java o metodu bulup calıstıryorcnku metodu olustururken toString() yazdık ozel bır metod o
+        System.out.println("kitap1"+ kitap1);
+        System.out.println("kitap2"+ kitap2);
+        System.out.println("kitap3"+ kitap3);
 
     }
 }

@@ -13,6 +13,7 @@ public class _05_JavaTernary {
         System.out.print("saat gir=");
         double saat= oku.nextDouble();
 
+
         System.out.println((saat<=3) ? "borç 10TL" : (saat<=5) ? "borç 15TL" : "borç 20TL");
 
         // 2. yontem. "borc 10tl" gıbı tırnaklı alınca Strıglı oluyor, aşagıdakı gbı dırekt rakam gırınce int dusunuyor ok o zaman "" koymadan rakama gir TL yazmaz o zaman

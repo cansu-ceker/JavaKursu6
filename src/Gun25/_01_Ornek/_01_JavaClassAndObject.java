@@ -1,12 +1,14 @@
 package Gun25._01_Ornek;
 
-//class-tiplerinin tanımlandığı yer
+//class-tiplerinin tanımlandığı yer yani ya ana class ın üstü y da ana class ın altı
 
 public class _01_JavaClassAndObject {
-    //metodların yazılabildiği yer
+    //metodların yazılabildiği yer yanı ya mainin üstü ya da mainin altı
 
     public static void main(String[] args) { // başla
         //ana programın çalıştığı yer
+
+
 
         Ogrenci ogr1=new Ogrenci();
         ogr1.OkulNo=1001;
@@ -22,12 +24,13 @@ public class _01_JavaClassAndObject {
 
     } //dur
 
-    //metodların yazılabildiği yer
+    //metodların yazılabildiği yer yanı ya mainin üstü ya da mainin altı
 }
 
-//class-tiplerinin tanımlandığı yer
 
-class Ogrenci{
+//class-tiplerinin tanımlandığı yer yani ya ana class ın üstü y da ana class ın altı
+
+class Ogrenci{   //burada Class  yazılması Ogrencinin tip olduğunu gösterir
     int OkulNo;
     String adi;
     String soyadi;

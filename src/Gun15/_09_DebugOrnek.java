@@ -13,7 +13,7 @@ public class _09_DebugOrnek {
 
 
         /* Programı adım adım çalıştırıp her satırdaki değerleri kontrol etmek
-           için başlaması istedğimiz yere breakpoint (kırmızı nokta) konur.
+           için başlaması istedğimiz yere breakpoint (kırmızı nokta) konur. o satırın soluna tıkla kırmızı nokta konar
 
            RUN yerine DEBUG seçilerek çalıştırılır.
            Program ilk olarak breakpoint de durur ve F8 ile adım adım ilerletilir.
@@ -23,6 +23,8 @@ public class _09_DebugOrnek {
            F9 ile bir break Pointten diğer Break Pointe atlanabilir.
 
            ileri gidilir hep, geri yok
+
+           debug- ayıklamak dıdık dıdık etmekten aklında kalsın
 
 
  */

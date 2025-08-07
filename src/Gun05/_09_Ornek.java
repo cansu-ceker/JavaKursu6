@@ -8,6 +8,7 @@ public class _09_Ornek {
         // ve bir satırda boyunuz ... ve kilonuz ... şeklinde yazrınız.
         // vucut kitle indexini de bularak yazdırınız   kg/ (boy*boy)
 
+
         Scanner oku=new Scanner(System.in);
 
         System.out.println(" Ağırlığınızı girin (kg)= ");
@@ -20,8 +21,6 @@ public class _09_Ornek {
 
         Double vki= kilo /(boy*boy);
         System.out.println("Vücut Kitle İndeksiniz = " + vki);
-
-
 
     }
 }

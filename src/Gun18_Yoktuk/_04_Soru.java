@@ -1,12 +1,14 @@
 package Gun18_Yoktuk;
 
+import java.util.Arrays;
+import java.util.Random;
+
 public class _04_Soru {
     public static void main(String[] args) {
 
         // 2 ye 3 lük bir tabloyu random 100 e kadar sayılarla doldurunuz
         // bütün doldurma işlemi bittikten sonra
         // sonrasında yazdırınız ve kaç tane tek sayı olduğunu bulunuz
-
 
 
 

@@ -13,7 +13,7 @@ public class _06_JavaTernary {
         int sayi= oku.nextInt();
 
         System.out.println( sayi==0 ? "SIFIR" : sayi<0 ? "Negatif" : "pozitif");
-
+//                   sayi 0 a eşit ise  0  değilse ve....negatif..degılse pozıtıf
 
 
     }

@@ -13,10 +13,20 @@ public class _02_TipDonusumleri {
         int toplamNot=ogrNo1+ogrNo2+ogrNo3+ogrNo4;      // byte<int
                                                         // byteları inte yani küçüğü büyüğe
                                                         //atabiliriz.
+                                                        //394
 
 
+        /* sağ taraf sol tarafa atılamıyorsa sistem sorar sen bunu bılerek mı yapıyosun dıye
 
-        //sağ taraf sol tarafa atılamıyorsa sistem sorar sen bunu bılerek mı yapıyosun dıye
+        evet ben bunu bılerek yapıyorum demek gıbı bı ıslemler yapmak gerek
+         mesela
+         int toplamNot=ogrNo1; dedin -> bu ok yapılabılır cnku ogrNo1 byte dır , byte olan bu sol tarafı, int e yani sola atabılırsın
+          fakat sonra
+          ogrNo2= toplamNot;  -> bunu dıyemezsın senı uyarır emın mısın bak,
+                                 toplamNot u int tanımladın, şimdi bunu sola yanı byte olan ogrNo2 ye atamazsın buyuk kucuge atılmaz
+                                 eger bunu bılerek yapıyosan bana ısaret gonder dogru duzgun yaz bıleyım der
+         ogrNo2=(byte)toplamNot: -> seklınde (byte) a cevırdım ben toplamNot u ve dolayısıyla byte ı byte a attım derse ok
+        */
 
 
 

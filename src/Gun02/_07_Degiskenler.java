@@ -6,15 +6,14 @@ public class _07_Degiskenler
 
         // variable : içindeki değer değişebiliyor ve değer saklıyor
         // programda bir veri saklayacaksam (sayi gibi, sayac gibi,  toplam gibi)
-        // benim bilgisayara nekadar yer istediğimi birde değişkenin adını
-        // söylemem lazım.
+        // benim bilgisayara nekadar yer istediğimi bir de değişkenin adını söylemem lazım.
         // int sayi -> INTEGER yani tam sayı
 
 
 
 
         int toplam;     // hafızada (RAM, geçicici hafızada) int kadar bir yer ayırıyor
-                        // bu ayrılan yerin adına sayi denir. tip olarakda tam sayi
+                        // bu ayrılan yerin adına sayi denir. tip olarak tam sayi dır
 
         toplam=5;  //toplam isimli değişkene 5 atandı.
     }

@@ -12,6 +12,8 @@ public class Siparis {
 
         int secim=0;
         do {
+             //menu();
+
             System.out.println("Aşağıdaki menüden istediğiniz pizzanın numarasını girin= ");
             System.out.println("MENÜ:\n 1-Small\n 2-Medium\n 3-Large\n 4-Seçilenleri göster ");
             secim=okuInt.nextInt();
@@ -30,7 +32,13 @@ public class Siparis {
 
     public  static  void menu()
     {
-
+        System.out.println("++++++++ PIZZA MENU +++++++++ ");
+        System.out.println("1 - SMALL ");
+        System.out.println("2 - MEDIUM ");
+        System.out.println("3 - LARGE ");
+        System.out.println("4 - Işleme al- Siparişi göster ");
+        System.out.println("5 - ÇIKIŞ ");
+        System.out.print("Seçiminiz: ");
 
 
 

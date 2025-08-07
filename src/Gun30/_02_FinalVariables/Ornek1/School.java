@@ -26,7 +26,7 @@ public class School {
 
       // final değişkenlerine sadece 1 kez veri atanabilir
       // o da
-        // ya tanımlanırken,   ya da Constructor da atanır,
+      // ya tanımlanırken,   ya da Constructor da atanır,
 
 
 

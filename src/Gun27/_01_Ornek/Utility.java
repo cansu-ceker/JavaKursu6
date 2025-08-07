@@ -1,6 +1,6 @@
 package Gun27._01_Ornek;
 
-public class Utility {
+public class Utility {  // Utility: sınıfın, tipin adı
 
     public String getString(int sayi)
     {
@@ -9,7 +9,7 @@ public class Utility {
     }
 
     //eğer bir metod nesnenin özelliklerini kullanıyorsa
-    //   Utility ut=new Utility(); gibi nesne oluşturulmadan kullanılamaz
+    //Utility ut=new Utility(); gibi nesne oluşturulmadan kullanılamaz
     // dolayısla STATIC olamaz
     // NESNE ŞART
 
@@ -26,7 +26,10 @@ public class Utility {
     }
 
     ///bağımsız metodlar yani STATIC metodlar
-    // herhangi bir neseneye bağlı çalışması gerekmeyen metodlardır
+    // herhangi bir nesneye bağlı çalışması gerekmeyen metodlardır
+    // mainde:
+    // classa adı. yani mesela bu ornek ıcın:
+    // Utility. yaptıgımzdan noktaya basınca bunu mu bunu mu ıstyosun dıye onumuze gosterılenler statıc olanlardır , nesne olusturulmadan da kullanıldıgı ıcın
 
 
 

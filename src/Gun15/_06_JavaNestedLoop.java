@@ -9,8 +9,11 @@ public class _06_JavaNestedLoop {
         // 2 x 1 =2
         // 2 x 2 =4
         // ....
+        // 5x1=5
+        // 5x2=10
+        // ...
 
-        // 5(dahil) lere kadar halini yapınız
+        // şimdi birden  5(dahil) lere kadar halini yapınız
 
 
         for(int kaclar=1 ; kaclar <=5 ; kaclar++)
@@ -23,7 +26,6 @@ public class _06_JavaNestedLoop {
             System.out.println();  // 1 ler 2 ler 3 ler arasında bir bosluk verdirir
 
         }
-
 
 
 

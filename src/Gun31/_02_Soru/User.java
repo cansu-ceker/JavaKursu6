@@ -13,6 +13,7 @@ public class User {
             System.out.println("Admin silinemez");
         else
             System.out.println("user silindi");
+          //  user=null; desek user ın ıcını bosaltmıs oluruz ama bu soruda onu ıstemedıgı ıcın yapmadık
     }
 
 

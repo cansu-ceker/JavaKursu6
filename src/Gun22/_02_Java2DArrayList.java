@@ -46,11 +46,11 @@ public class _02_Java2DArrayList {
         tumNotlar.get(0);  // matNotlarınızı verir
         tumNotlar.get(0).get(0);  // matNotlarının ilk  notunu verir yani ilk mat notunu verir
 
-        System.out.println("tumNotlar.get(0) = " + tumNotlar.get(0));  //matNotlarını
-        System.out.println("tumNotlar.get(0) = " + tumNotlar.get(1));  //fizNotlari
-        System.out.println("tumNotlar.get(0) = " + tumNotlar.get(2));  //kimNotlari
+        System.out.println("matNotlari = " + tumNotlar.get(0));  //matNotlarını
+        System.out.println("fizNotlari = " + tumNotlar.get(1));  //fizNotlari
+        System.out.println("kimNotlari = " + tumNotlar.get(2));  //kimNotlari
 
-        System.out.println("tumNotlar.get(0).get(0) = " + tumNotlar.get(0).get(0));  // ilk mat notunu yazdırma
+        System.out.println("ilk mat notu = " + tumNotlar.get(0).get(0));  // ilk mat notunu yazdırma
 
 
 
@@ -67,7 +67,7 @@ public class _02_Java2DArrayList {
 
         for (int i = 0 ; i <tumNotlar.size() ; i++)
         {
-            for (int j = 0 ; j < tumNotlar.get(i).size() ; j++)  // < tum notların satırlarının boyutu/boyu
+            for (int j = 0 ; j < tumNotlar.get(i).size() ; j++)  // < tum notların satırlarının boyutu/boyu kadar dön
             {
                 System.out.println("tek tek tumNotlar = " + tumNotlar.get(i).get(j));
             }

@@ -5,7 +5,7 @@ public class Arac {
     private int motorHacmi;
     private String marka;
 
-    public Arac(String renk, int motorHacmi, String marka) {    // bu cons ıle yaptım sonradadn set  yazdım elımle ve kapsullemıs oldum
+    public Arac(String renk, int motorHacmi, String marka) {    // bunu cons ıle yaptım sonradadn set  yazdım elımle ve kapsullemıs oldum
        setRenk(renk);
        setMotorHacmi(motorHacmi);
        setMarka(marka);
@@ -13,11 +13,10 @@ public class Arac {
 
     @Override
     public String toString() {
-        return "Arac{" +
-                "renk='" + renk + '\'' +
-                ", motorHacmi=" + motorHacmi +
-                ", marka='" + marka + '\'' +
-                '}';
+        return "Arac" +
+                "\nrenk=" + this.renk +
+                "\nmotorHacmi=" + this.motorHacmi +
+                "\nmarka=" + this.marka;
     }
 
     public String getRenk() {

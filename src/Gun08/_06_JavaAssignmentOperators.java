@@ -7,8 +7,8 @@ public class _06_JavaAssignmentOperators {
 
         a=5;  // a ya 5 değeri atanmış
 
-        a=a+6;  // a ya 6 değerini ekle 11 oldu
-        a+=6;   // a ya 6 değerini ekle 17 oldu
+        a=a+6;  // a ya 6 değerini ekle 11 oldu             a nın artıs degeri = 6 demek
+        a+=6;   // a ya 6 değerini ekle 17 oldu                      a+        = 6
         // a nın artış değeri 6 ya eşittir anlamı var
         //a yı arttır 6 tane demek
 

@@ -5,8 +5,7 @@ import java.util.Arrays;
 public class _02_JavaVeriTipleri {
     public static void main(String[] args) {
 
-        // ilkel tip, primitive tip
-        // short, byte, long, double, boolean
+        // ilkel tip, primitive tip: short, byte, long, double, boolean
 
         int sayi1=5;
         int sayi2=12;

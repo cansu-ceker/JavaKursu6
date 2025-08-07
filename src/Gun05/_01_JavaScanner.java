@@ -5,14 +5,17 @@ import java.util.Scanner;
 public class _01_JavaScanner {
     public static void main(String[] args) {
 
-        //tipi     adı     başlangıç değeri
+        //tipi     adı   =  başlangıç değeri
         //int      sayi  =  5;
 
-                                                          // (System.in)
-        //tipi     adı      yeni bir tane okuyucu oluştur (klavyeden-konsoldan)
+                                                  // (System.in)
+        //tipi     adı    = yeni bir okuyucu oluştur (klavyeden-konsoldan)
         Scanner   okuyucu = new Scanner(System.in);
 
         System.out.print("Sayı Giriniz =");
+
+      //  okuyucu.nextInt();  demek klavyeden girilen TAMSAYIyı oku demek
+
         int okunan=okuyucu.nextInt();   //klavyeden girilen TAMSAYIyı oku
                                       //rakam girilip entera basılınca değeri alıp okunan a atıyor
         System.out.println("okunan = " + okunan);
@@ -22,7 +25,7 @@ public class _01_JavaScanner {
            konsoldan klavyeden sana giriş yapılcak oradan okuyacaksın dedık,
            mesela 17 okudu
 
-           2. komutta, o okudugunu int yap dedik, int x=17 işlemini yaptırdık, eğer ilk girdiğimiz sayı değil kelime olsaydı String yapardık
+           2. komutta, o okudugunu int yap dedik, int okunan=17 işlemini yaptırdık, eğer ilk girdiğimiz sayı değil kelime olsaydı String yapardık
 
            yazdırdık sonraki komutlarda da
          */

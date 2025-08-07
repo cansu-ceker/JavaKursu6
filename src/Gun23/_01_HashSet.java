@@ -30,16 +30,11 @@ public class _01_HashSet {
         hs1.add(22);
         hs1.add(4);
         hs1.add(5);
-        boolean eklendiMİ=hs1.add(5);  // tekrar eklendi, acaba diziye kabul etti mi? etmedi. tekrara izin yok
+        boolean eklendiMi=hs1.add(5);  // tekrar eklendi, acaba diziye kabul etti mi? etmedi. tekrara izin yok
         hs1.add(2);  // tekrar eklendi,acaba diziye kabul etti mi?
 
         System.out.println("hs1 = " + hs1);
-        System.out.println("eklendiMİ = " + eklendiMİ); // false, eklenmedi yani
-
-
-
-
-
+        System.out.println("eklendiMİ = " + eklendiMi); // false, eklenmedi yani
 
 
 

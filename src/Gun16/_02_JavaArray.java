@@ -18,7 +18,7 @@ public class _02_JavaArray {
 
         for (int i = 0 ; i <dizi.length ; i++)
         {
-            System.out.println("dizi["+i+"]="+dizi[i]);
+            System.out.println("dizi[" +i+ "]="+dizi[i]);
         }
 
 

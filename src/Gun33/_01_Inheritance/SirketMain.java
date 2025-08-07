@@ -16,7 +16,7 @@ public class SirketMain {
 
         // private olunca gettersetter yaparak kapsulleme yapılması zorunludur
 
-   //Inheritans bir tane super class oluyor
+        //Inheritans bir tane super class oluyor
 
     }
 }

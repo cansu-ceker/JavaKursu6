@@ -20,11 +20,12 @@ public class _06_JavaMethod {
     }
 
 
-    public static int toplamBul(int...dizi) //  3 nokta sabit, kac tane geldıyse diziye at demek
+    public static int toplamBul(int...dizi) //  3 nokta sabit, kac tane geldıyse diziye at demek, neden dızı cnk ne kadar atılacak sayını bılmıyoruz net degıl, kac atıldıysa sen once onu bı dızıye at,
+                                           // mesela  s1-s2-s3 u once dızıye at adına lıste de derız farketmez, lısteye at, nolsu lıste sayısı 3,
     {
         int toplam=0;
 
-        for (int i = 0 ; i < dizi.length ; i++)
+        for (int i = 0 ; i < dizi.length ; i++)   // lıstede bulunan artık kac eleman varsa, sallıyorum 3 elemanı toplatmak ıcın for
             toplam=toplam+dizi[i];
 
         return toplam;
@@ -32,12 +33,6 @@ public class _06_JavaMethod {
 
 
     // aşağıdaki 3 ün yerine onları yazmayıp, yukarıdakini yazabilirsin
-
-
-
-
-
-
 
 //    public static int toplamBul(int s1,int s2)
 //    {

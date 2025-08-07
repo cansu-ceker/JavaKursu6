@@ -25,7 +25,7 @@ public class _06_JavaTryMultipleCatch {
           // kelime.charAt(3);
 
 
-       }catch (ArithmeticException ex)  // belirli bir hata case
+       }catch (ArithmeticException ex)     // belirli bir hata case   hata olunca kırmızı erde bu yazıyor zaten ArithmeticExceptiion dıye, bu sekılde bıldıgımız hata varsa bu hata olursa bunu yap, bu hata olursa sunu yao vs dıye yazabılırız try catch
        {
            System.out.println("sıfıra bölme hatası oluştu");
        }

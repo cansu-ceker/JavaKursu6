@@ -6,7 +6,7 @@ public class Kisiler {
     private String gorevi;
 
 
-    public static void kimlikBelgesiYazdir (Kisiler gelenKisi)
+    public static void kimlikBelgesiYazdir (Kisiler gelenKisi)  // () ıcıne oeyl bı sey yazmalıyım kı hem calısan gırebılmelı metoda hem ogrencı, calısan da ogrencı de kısı oldugu ıcın Kisiler tipinde gelenKisi diyelim dedik
     {
         System.out.println("\n*************KİMLİK BELGESİ**********");
         System.out.println("Adı="+ gelenKisi.getAd());

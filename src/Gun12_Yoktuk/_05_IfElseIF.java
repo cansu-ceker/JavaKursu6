@@ -12,6 +12,7 @@ public class _05_IfElseIF {
         // >= 40 için E
         // < 40 için F yazdırınız.
 
+
         Scanner oku = new Scanner(System.in);
         System.out.print("Dersi ve notunu giriniz=");
         String dersVeNotu = oku.nextLine(); //Fizik:90

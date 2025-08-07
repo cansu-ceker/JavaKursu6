@@ -22,15 +22,21 @@ public class _04_continue {
                                                        //ama sorunun aynısını yazıp pas geç demek daha hemen akla gelir
 
                 if (sayi>6 && sayi<10)  // 7-8-9 toplamaya girmez
-                   continue;   //  pas geç : kendinden sonra gelen komutları pas geçer
-                                // döngünün sonraki adımına geöer
+                   continue;   //  pas geç : kendinden sonra gelen komutLARI pas geçer
+                                // döngünün sonraki adımına geçer
 
             toplam=toplam+sayi; // yani burayı pas geçirdi continue
+
+            /*   eger 6-7-8 ise sayi
+                 pasgec
+                 toplamayı  /carpmayı neyse yanı bu contınue nın  altındakı satırlarda  yazılı olan seylerı pas gecer  */
 
         }
 
         System.out.println("toplam = " + toplam);
 
-
     }
+
+
+
 }

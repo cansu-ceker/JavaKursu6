@@ -8,6 +8,7 @@ public class _06_WhileLoop {
         // Girilen 6 sayıdan sadece pozitif olanlarının
         // toplamını bulunuz
 
+
         Scanner oku=new Scanner(System.in);
 
         int toplam=0;
@@ -24,8 +25,6 @@ public class _06_WhileLoop {
             sayac++;
         }
         System.out.println("toplam = " + toplam);
-
-
 
 
 
